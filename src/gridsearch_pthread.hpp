@@ -18,12 +18,12 @@
 #include "../../gmml/includes/utils.hpp"
 #include "../../gmml/src/MolecularMetadata/guesses.cc"
 
-#include "../../pdb2glycam/vina_atom_data.hpp"
+#include "vina_atom_data.hpp"
 #include "rotamer_library.hpp"
 #include "utility.hpp"
 #include "open_valence_derivative_moiety.hpp"
 
-#include "boost/tokenizer.hpp"
+//#include "boost/tokenizer.hpp"
 #include <iostream>
 #include <string>
 #include <fstream>

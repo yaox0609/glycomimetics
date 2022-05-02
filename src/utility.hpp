@@ -17,7 +17,7 @@
 #include "../../gmml/includes/InputSet/PdbqtFileSpace/pdbqtremarkcard.hpp"
 #include "../../gmml/includes/utils.hpp"
 
-#include <boost/filesystem.hpp>
+//#include <boost/filesystem.hpp>
 
 #include <vector>
 #include <cstdlib>
@@ -85,7 +85,7 @@ std::vector<std::string> glob(std::string& moiety_path, std::string& ext) {
     return filenames;
 }
 
-std::vector<std::string> glob_for_pattern(const boost::filesystem::path& root, const std::string& ext){
+/*std::vector<std::string> glob_for_pattern(const boost::filesystem::path& root, const std::string& ext){
     // return the filenames of all files that have the specified extension
     // in the specified directory and all subdirectories
     std::vector<boost::filesystem::path> ret;
@@ -112,7 +112,7 @@ std::vector<std::string> glob_for_pattern(const boost::filesystem::path& root, c
 
     return all_matched_paths;
 
-}
+}*/
 
 void GetGeometricCenter(AtomVector& atoms, double* ring_centroid_array, int starting_index, int coord_index = 0){
     ring_centroid_array[starting_index] = 0; 

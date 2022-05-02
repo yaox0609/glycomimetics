@@ -12,8 +12,8 @@
 #include "../../gmml/includes/InputSet/Utilities/response.hpp"
 #include "../../gmml/includes/Glycan/note.hpp"
 
-#include "../../pdb2glycam/vina_atom_data.hpp"
-#include "../../pdb2glycam/vina_bond_by_distance_for_pdb.hpp"
+#include "vina_atom_data.hpp"
+#include "vina_bond_by_distance_for_pdb.hpp"
 #include "utility.hpp"
 
 #include <iostream>

@@ -14,7 +14,7 @@
 #include "../../gmml/includes/InputSet/PdbqtFileSpace/pdbqtremarkcard.hpp"
 #include "../../gmml/includes/utils.hpp"
 
-#include "../../pdb2glycam/vina_bond_by_distance_for_pdb.hpp"
+#include "../src/vina_bond_by_distance_for_pdb.hpp"
 #include "mainparm.cpp"
 #include "frcmod.cpp"
 #include "mapping.cpp"

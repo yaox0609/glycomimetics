@@ -27,7 +27,7 @@
 
 #include "../../gmml/includes/utils.hpp"
 
-#include "../../pdb2glycam/vina_atom_data.hpp"
+#include "vina_atom_data.hpp"
 #include "utility.hpp"
 #include "amber_handling.hpp"
 #include "pdb2glycam.hpp"

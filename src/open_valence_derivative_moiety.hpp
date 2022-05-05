@@ -1,31 +1,31 @@
 #ifndef OPEN_VALENCE_DERIVATIVE_MOIETY_HPP 
 #define OPEN_VALENCE_DERIVATIVE_MOIETY_HPP
 
-#include "../../gmml/includes/gmml.hpp"
-#include "../../gmml/includes/MolecularModeling/assembly.hpp"
-#include "../../gmml/includes/ParameterSet/PrepFileSpace/prepfile.hpp"
-#include "../../gmml/includes/ParameterSet/PrepFileSpace/prepfileresidue.hpp"
-#include "../../gmml/includes/ParameterSet/PrepFileSpace/prepfileprocessingexception.hpp"
-#include "../../gmml/includes/ParameterSet/OffFileSpace/offfile.hpp"
-#include "../../gmml/includes/ParameterSet/OffFileSpace/offfileresidue.hpp"
-#include "../../gmml/includes/ParameterSet/OffFileSpace/offfileprocessingexception.hpp"
-#include "../../gmml/includes/InputSet/CondensedSequenceSpace/condensedsequence.hpp"
-#include "../../gmml/includes/InputSet/PdbFileSpace/pdbfile.hpp"
-#include "../../gmml/includes/InputSet/PdbFileSpace/pdbremarksection.hpp"
+#include "includes/gmml.hpp"
+#include "includes/MolecularModeling/assembly.hpp"
+#include "includes/ParameterSet/PrepFileSpace/prepfile.hpp"
+#include "includes/ParameterSet/PrepFileSpace/prepfileresidue.hpp"
+#include "includes/ParameterSet/PrepFileSpace/prepfileprocessingexception.hpp"
+#include "includes/ParameterSet/OffFileSpace/offfile.hpp"
+#include "includes/ParameterSet/OffFileSpace/offfileresidue.hpp"
+#include "includes/ParameterSet/OffFileSpace/offfileprocessingexception.hpp"
+#include "includes/InputSet/CondensedSequenceSpace/condensedsequence.hpp"
+#include "includes/InputSet/PdbFileSpace/pdbfile.hpp"
+#include "includes/InputSet/PdbFileSpace/pdbremarksection.hpp"
 
-#include "../../gmml/includes/InputSet/PdbqtFileSpace/pdbqtfile.hpp"
-#include "../../gmml/includes/InputSet/PdbqtFileSpace/pdbqtmodel.hpp"
-#include "../../gmml/includes/InputSet/PdbqtFileSpace/pdbqtremarkcard.hpp"
-#include "../../gmml/includes/InputSet/PdbqtFileSpace/pdbqtatomcard.hpp"
-#include "../../gmml/includes/InputSet/PdbqtFileSpace/pdbqtatom.hpp"
-#include "../../gmml/includes/InputSet/PdbqtFileSpace/pdbqtbranchcard.hpp"
-#include "../../gmml/includes/InputSet/PdbqtFileSpace/pdbqtcompoundcard.hpp"
-#include "../../gmml/includes/InputSet/PdbqtFileSpace/pdbqtmodelcard.hpp"
-#include "../../gmml/includes/InputSet/PdbqtFileSpace/pdbqtmodelresidueset.hpp"
-#include "../../gmml/includes/InputSet/PdbqtFileSpace/pdbqtrootcard.hpp"
-#include "../../gmml/includes/InputSet/PdbqtFileSpace/pdbqttorsionaldofcard.hpp"
+#include "includes/InputSet/PdbqtFileSpace/pdbqtfile.hpp"
+#include "includes/InputSet/PdbqtFileSpace/pdbqtmodel.hpp"
+#include "includes/InputSet/PdbqtFileSpace/pdbqtremarkcard.hpp"
+#include "includes/InputSet/PdbqtFileSpace/pdbqtatomcard.hpp"
+#include "includes/InputSet/PdbqtFileSpace/pdbqtatom.hpp"
+#include "includes/InputSet/PdbqtFileSpace/pdbqtbranchcard.hpp"
+#include "includes/InputSet/PdbqtFileSpace/pdbqtcompoundcard.hpp"
+#include "includes/InputSet/PdbqtFileSpace/pdbqtmodelcard.hpp"
+#include "includes/InputSet/PdbqtFileSpace/pdbqtmodelresidueset.hpp"
+#include "includes/InputSet/PdbqtFileSpace/pdbqtrootcard.hpp"
+#include "includes/InputSet/PdbqtFileSpace/pdbqttorsionaldofcard.hpp"
 
-#include "../../gmml/includes/utils.hpp"
+#include "includes/utils.hpp"
 
 #include "vina_atom_data.hpp"
 #include "utility.hpp"
@@ -453,16 +453,6 @@ CoComplex::CoComplex(std::string file_path, int num_threads){
     }
     RecordProtonSet(all_atoms, this->input_heavy_atom_protons_map_);
 
-    //Perform pdb2glycam matching
-    std::vector<std::string> amino_libs;
-    amino_libs.push_back("../gmml/dat/CurrentParams/leaprc.ff12SB_2014-04-24/amino12.lib");
-    amino_libs.push_back("../gmml/dat/CurrentParams/leaprc.ff12SB_2014-04-24/aminoct12.lib");
-    amino_libs.push_back("../gmml/dat/CurrentParams/leaprc.ff12SB_2014-04-24/aminont12.lib");
-    std::string prep = "../gmml/dat/prep/GLYCAM_06j-1.prep";
-
-    //The sugar identification code in monosaccharide.cc is written for non-hydrogenated structure. Must remove H before using pdb2glycam
-    pdb2glycam_matching(file_path, this->pdb_glycam_atom_match_map_, all_atoms, gmml::InputFileType::PDBQT, amino_libs, prep);
-
     this->receptor_assembly_ = new MolecularModeling::Assembly();
     this->ligand_assembly_ = new MolecularModeling::Assembly();
     //For now find receptor by check if protein, other atoms are all considered ligand. 
@@ -487,12 +477,29 @@ CoComplex::CoComplex(std::string file_path, int num_threads){
     WritePdbFromAssembly(this->ligand_assembly_, "natural_ligand.pdb");
 
     RenameDisulfideCYS2CYX(assembly_residues);
+
+    //Perform pdb2glycam matching
+    std::vector<std::string> amino_libs;
+    amino_libs.push_back("../gmml/dat/CurrentParams/leaprc.ff12SB_2014-04-24/amino12.lib");
+    amino_libs.push_back("../gmml/dat/CurrentParams/leaprc.ff12SB_2014-04-24/aminoct12.lib");
+    amino_libs.push_back("../gmml/dat/CurrentParams/leaprc.ff12SB_2014-04-24/aminont12.lib");
+    std::string prep = "../gmml/dat/prep/GLYCAM_06j-1.prep";
+
+    //The sugar identification code in monosaccharide.cc is written for non-hydrogenated structure. Must remove H before using pdb2glycam
+    pdb2glycam_matching(file_path, this->pdb_glycam_atom_match_map_, all_atoms, gmml::InputFileType::PDBQT, amino_libs, prep);
+    std::vector<std::string> old_names;
+    AtomVector ligand_atoms = this->GetLigandAtoms();
+    for (unsigned int i = 0; i < ligand_atoms.size(); i++){
+        old_names.push_back(ligand_atoms[i]->GetName());
+    }
+
+    WriteDerivatizedLigandPdb2GlycamLogFile(*(this->ligand_assembly_), "natural_ligand_", old_names);
+
     //Write hydrogen-free receptor into a pdb file. Later tleap adds proton
     RemoveProtons(this->receptor_atoms_);
     WritePdbFromAssembly(this->receptor_assembly_, "receptor.pdb");
     ApplyProtonSet(all_atoms, this->input_heavy_atom_protons_map_); //Need to add proton set back for CH-pi 
 
-    AtomVector ligand_atoms = this->GetLigandAtoms();
     DuplicateAtomNodesAndCoordinates (ligand_atoms, num_threads);
     //LoadAmberProteinTypeAndCharge(this->cocomplex_assembly_, this->atom_amber_type_map_, this->atom_amber_charge_map_, this->amber_heavy_atom_protons_map_);
 
@@ -583,19 +590,19 @@ void CoComplex::WriteDerivatizedLigandPdb2GlycamLogFile(MolecularModeling::Assem
     AtomVector analog_atoms = derivatized_ligand_assembly.GetAllAtomsOfAssembly();
     for (unsigned int i = 0; i < analog_atoms.size(); i++){
         MolecularModeling::Atom* this_atom = analog_atoms[i];
-	pdb2glycam_log << std::left << std::setw(10) << old_names[i] << std::setw(10) << this_atom->GetName(); 
+	    pdb2glycam_log << std::left << std::setw(10) << old_names[i] << std::setw(10) << this_atom->GetName(); 
 
-	//If this atom is among the natural sugar that's successfully matched by pdb2glycam, apply pdb2glycam parameters
+	    //If this atom is among the natural sugar that's successfully matched by pdb2glycam, apply pdb2glycam parameters
         if (this->pdb_glycam_atom_match_map_.find(this_atom) != this->pdb_glycam_atom_match_map_.end()){
-	    MolecularModeling::Atom* glycam_atom = this->pdb_glycam_atom_match_map_[this_atom];
-	    std::string type = glycam_atom->MolecularDynamicAtom::GetAtomType();
-	    double charge = glycam_atom->MolecularDynamicAtom::GetCharge();
+	        MolecularModeling::Atom* glycam_atom = this->pdb_glycam_atom_match_map_[this_atom];
+	        std::string type = glycam_atom->MolecularDynamicAtom::GetAtomType();
+	        double charge = glycam_atom->MolecularDynamicAtom::GetCharge();
 
             pdb2glycam_log << std::left << std::setw(10) << "YES" << std::setw(10) << type << std::setw(10) << std::fixed << std::setprecision(4) << charge << std::endl;
-	}
+	    }
         else {  //If not, write NONE to the parameters
             pdb2glycam_log << std::left << std::setw(10) << "NO" << std::setw(10) << "NONE" << std::setw(10) << "NONE" << std::endl;
-	}	
+	    }	
     }
 
     pdb2glycam_log.close();

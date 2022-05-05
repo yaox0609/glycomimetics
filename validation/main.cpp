@@ -1,25 +1,25 @@
 
-#include "../../gmml/includes/gmml.hpp"
-#include "../../gmml/includes/MolecularModeling/assembly.hpp"
-#include "../../gmml/includes/ParameterSet/PrepFileSpace/prepfile.hpp"
-#include "../../gmml/includes/ParameterSet/PrepFileSpace/prepfileresidue.hpp"
-#include "../../gmml/includes/ParameterSet/PrepFileSpace/prepfileprocessingexception.hpp"
-#include "../../gmml/includes/ParameterSet/OffFileSpace/offfile.hpp"
-#include "../../gmml/includes/ParameterSet/OffFileSpace/offfileresidue.hpp"
-#include "../../gmml/includes/ParameterSet/OffFileSpace/offfileprocessingexception.hpp"
-#include "../../gmml/includes/InputSet/CondensedSequenceSpace/condensedsequence.hpp"
-#include "../../gmml/includes/InputSet/PdbFileSpace/pdbfile.hpp"
-#include "../../gmml/includes/InputSet/PdbFileSpace/pdbremarksection.hpp"
-#include "../../gmml/includes/InputSet/PdbqtFileSpace/pdbqtfile.hpp"
-#include "../../gmml/includes/InputSet/PdbqtFileSpace/pdbqtmodel.hpp"
-#include "../../gmml/includes/InputSet/PdbqtFileSpace/pdbqtremarkcard.hpp"
-#include "../../gmml/includes/utils.hpp"
-#include "../../gmml/src/MolecularMetadata/guesses.cc"
+#include "includes/gmml.hpp"
+#include "includes/MolecularModeling/assembly.hpp"
+#include "includes/ParameterSet/PrepFileSpace/prepfile.hpp"
+#include "includes/ParameterSet/PrepFileSpace/prepfileresidue.hpp"
+#include "includes/ParameterSet/PrepFileSpace/prepfileprocessingexception.hpp"
+#include "includes/ParameterSet/OffFileSpace/offfile.hpp"
+#include "includes/ParameterSet/OffFileSpace/offfileresidue.hpp"
+#include "includes/ParameterSet/OffFileSpace/offfileprocessingexception.hpp"
+#include "includes/InputSet/CondensedSequenceSpace/condensedsequence.hpp"
+#include "includes/InputSet/PdbFileSpace/pdbfile.hpp"
+#include "includes/InputSet/PdbFileSpace/pdbremarksection.hpp"
+#include "includes/InputSet/PdbqtFileSpace/pdbqtfile.hpp"
+#include "includes/InputSet/PdbqtFileSpace/pdbqtmodel.hpp"
+#include "includes/InputSet/PdbqtFileSpace/pdbqtremarkcard.hpp"
+#include "includes/utils.hpp"
+#include "src/MolecularMetadata/guesses.cc"
 
-#include "../../pdb2glycam/vina_bond_by_distance_for_pdb.hpp"
+#include "../src/vina_bond_by_distance_for_pdb.hpp"
 #include "../src/pdb2glycam.hpp"
 
-#include "boost/tokenizer.hpp"
+//#include "boost/tokenizer.hpp"
 #include <vector>
 #include <iostream>
 #include <string>
@@ -30,7 +30,7 @@
 #include <pthread.h>
 #include <iterator>
 #include <sstream>
-#include <boost/filesystem.hpp>
+//#include <boost/filesystem.hpp>
 #include <functional> //std::greater
 
 struct available_atom{

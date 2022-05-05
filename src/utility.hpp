@@ -1,23 +1,21 @@
 #ifndef UTILITY_HPP
 #define UTILITY_HPP
 
-#include "../../gmml/includes/gmml.hpp"
-#include "../../gmml/includes/MolecularModeling/assembly.hpp"
-#include "../../gmml/includes/ParameterSet/PrepFileSpace/prepfile.hpp"
-#include "../../gmml/includes/ParameterSet/PrepFileSpace/prepfileresidue.hpp"
-#include "../../gmml/includes/ParameterSet/PrepFileSpace/prepfileprocessingexception.hpp"
-#include "../../gmml/includes/ParameterSet/OffFileSpace/offfile.hpp"
-#include "../../gmml/includes/ParameterSet/OffFileSpace/offfileresidue.hpp"
-#include "../../gmml/includes/ParameterSet/OffFileSpace/offfileprocessingexception.hpp"
-#include "../../gmml/includes/InputSet/CondensedSequenceSpace/condensedsequence.hpp"
-#include "../../gmml/includes/InputSet/PdbFileSpace/pdbfile.hpp"
-#include "../../gmml/includes/InputSet/PdbFileSpace/pdbremarksection.hpp"
-#include "../../gmml/includes/InputSet/PdbqtFileSpace/pdbqtfile.hpp"
-#include "../../gmml/includes/InputSet/PdbqtFileSpace/pdbqtmodel.hpp"
-#include "../../gmml/includes/InputSet/PdbqtFileSpace/pdbqtremarkcard.hpp"
-#include "../../gmml/includes/utils.hpp"
-
-//#include <boost/filesystem.hpp>
+#include "includes/gmml.hpp"
+#include "includes/MolecularModeling/assembly.hpp"
+#include "includes/ParameterSet/PrepFileSpace/prepfile.hpp"
+#include "includes/ParameterSet/PrepFileSpace/prepfileresidue.hpp"
+#include "includes/ParameterSet/PrepFileSpace/prepfileprocessingexception.hpp"
+#include "includes/ParameterSet/OffFileSpace/offfile.hpp"
+#include "includes/ParameterSet/OffFileSpace/offfileresidue.hpp"
+#include "includes/ParameterSet/OffFileSpace/offfileprocessingexception.hpp"
+#include "includes/InputSet/CondensedSequenceSpace/condensedsequence.hpp"
+#include "includes/InputSet/PdbFileSpace/pdbfile.hpp"
+#include "includes/InputSet/PdbFileSpace/pdbremarksection.hpp"
+#include "includes/InputSet/PdbqtFileSpace/pdbqtfile.hpp"
+#include "includes/InputSet/PdbqtFileSpace/pdbqtmodel.hpp"
+#include "includes/InputSet/PdbqtFileSpace/pdbqtremarkcard.hpp"
+#include "includes/utils.hpp"
 
 #include <vector>
 #include <cstdlib>
@@ -73,8 +71,8 @@ std::vector<std::string> glob(std::string& moiety_path, std::string& ext) {
     // collect all the filenames into a std::list<std::string>
     std::vector<std::string> filenames;
     for(size_t i = 0; i < glob_result.gl_pathc; ++i) {
-	std::string globbed_full_path = std::string(glob_result.gl_pathv[i]);
-	std::string moiety_filename = globbed_full_path.erase(0, moiety_path.size() + 1 );
+	    std::string globbed_full_path = std::string(glob_result.gl_pathv[i]);
+	    std::string moiety_filename = globbed_full_path.erase(0, moiety_path.size() + 1 );
         filenames.push_back(moiety_filename);
     }
 
@@ -84,35 +82,6 @@ std::vector<std::string> glob(std::string& moiety_path, std::string& ext) {
     // done
     return filenames;
 }
-
-/*std::vector<std::string> glob_for_pattern(const boost::filesystem::path& root, const std::string& ext){
-    // return the filenames of all files that have the specified extension
-    // in the specified directory and all subdirectories
-    std::vector<boost::filesystem::path> ret;
-    std::vector<std::string> all_matched_paths;
-
-    if(!boost::filesystem::exists(root) || !boost::filesystem::is_directory(root)) return std::vector<std::string>();
-
-    //Use non recursive dir iterator
-    //fs::recursive_directory_iterator it(root);
-    //fs::recursive_directory_iterator endit;
-    boost::filesystem::directory_iterator it(root);
-    boost::filesystem::directory_iterator endit;
-
-    while(it != endit)
-    {
-        if(boost::filesystem::is_regular_file(*it) && it->path().string().find(ext) != std::string::npos) ret.push_back(it->path().filename());
-        ++it;
-
-    }
-
-    for (unsigned int i = 0; i < ret.size(); i++){
-        all_matched_paths.push_back(ret[i].string());
-    }
-
-    return all_matched_paths;
-
-}*/
 
 void GetGeometricCenter(AtomVector& atoms, double* ring_centroid_array, int starting_index, int coord_index = 0){
     ring_centroid_array[starting_index] = 0; 

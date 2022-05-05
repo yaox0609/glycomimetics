@@ -375,7 +375,9 @@ void ChargeAdjustment(std::vector<mol2_atom>& mol2_atoms, AtomVector& pdb_atoms,
 
     std::cout << "Antechamber net charge: " << antechamber_net_charge << " and mixed net charge: " << glycam_gaff_mixed_net_charge << std::endl;
     double diff = antechamber_net_charge - glycam_gaff_mixed_net_charge;
-    double change_per_atom  = diff / ( 2 * glycam_gaff_bonds.size());
+
+    //If there is no glycam-gaff bond (i.e natural ligand), no change is necessary. Set change to zero
+    double change_per_atom  = (glycam_gaff_bonds.empty()) ? 0 : diff / ( 2 * glycam_gaff_bonds.size());
     std::cout << "Change per atom: " << change_per_atom << std::endl;
 
     for (unsigned int i = 0; i < glycam_gaff_bonds.size(); i++){

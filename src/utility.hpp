@@ -28,6 +28,51 @@
 
 typedef std::vector<MolecularModeling::Atom*> AtomVector;
 
+bool InternalClashesExist(AtomVector& atom_set_1, AtomVector& atom_set_2, int coord_index){
+    //Exhaustively compare two different atoms in assembly, using two nested for loops
+    for (gmml::AtomVector::iterator it = atom_set_1.begin(); it != atom_set_1.end(); it++){
+        MolecularModeling::Atom* current_atom = *it;
+        if (current_atom->GetElementSymbol() != "H"){
+            unsigned int bond_by_distance_count = 0;  //How many bonds does a particular atom have, according to bond by distance
+            for (gmml::AtomVector::iterator it1 = atom_set_2.begin(); it1 != atom_set_2.end(); it1++){
+                if (*it1 != current_atom){ //If not the same atom in the two atom vectors
+                    MolecularModeling::Atom* another_atom = *it1;
+                    //First compare X,Y,Z distance of two atoms. If they are really far apart, one dimension comparison is sufficient to exclude. In this way don't have to calculate distance for
+                    //each pair
+                    if (another_atom->GetElementSymbol() != "H"){
+                        if (std::abs(current_atom->GetCoordinates().at(coord_index)->GetX() - another_atom->GetCoordinates().at(coord_index)->GetX()) < 2.0){
+                            if (std::abs(current_atom->GetCoordinates().at(coord_index)->GetY() - another_atom->GetCoordinates().at(coord_index)->GetY()) < 2.0){
+                                if (std::abs(current_atom->GetCoordinates().at(coord_index)->GetZ() - another_atom->GetCoordinates().at(coord_index)->GetZ()) < 2.0){
+                                    //If distance as each dimension is within cutoff, then calculate 3D distance
+                                    if (current_atom->GetCoordinates().at(coord_index)->Distance(*(another_atom->GetCoordinates().at(coord_index)) ) < 2.0){
+                                        bond_by_distance_count++;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            AtomVector neighbors = current_atom->GetNodes().at(coord_index)->GetNodeNeighbors();
+            int non_h_neighbors_count = 0;
+            for (unsigned int i = 0; i < neighbors.size(); i++){
+                if (neighbors[i]->GetElementSymbol() != "H"){
+                    non_h_neighbors_count++;
+                }
+            }
+            //If bond by distance gives more bonds than the number of bonds in atom node, then this atom is clashing with other atoms. This residue is a clashing residue
+            if (bond_by_distance_count > non_h_neighbors_count){
+        //std::cout << "Bond by dist count: " << bond_by_distance_count << " non H neighbors count: " << non_h_neighbors_count << std::endl;
+                //std::cout << "Atom with clash: " << current_atom->GetResidue()->GetName() << "-" << current_atom->GetName() << " has clash " << std::endl;
+                return true;
+            }
+        }
+    }
+
+    return false;
+}
+
 bool DistanceWithinCutoff(MolecularModeling::Atom* atom1, MolecularModeling::Atom* atom2, double& distance, double cutoff, int coord_index1, int coord_index2){
     GeometryTopology::Coordinate* coord_1 = atom1->GetCoordinates()[coord_index1];
     GeometryTopology::Coordinate* coord_2 = atom2->GetCoordinates()[coord_index2];

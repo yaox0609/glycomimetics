@@ -1,0 +1,1 @@
+cp aldehyde_81_*.pdb aldehyde_302_*.pdb aldehyde_315_*.pdb aldehyde_11_*.pdb aldehyde_230_*.pdb aldehyde_316_*.pdb aldehyde_80_*.pdb aldehyde_303_*.pdb aldehyde_83_*.pdb aldehyde_186_*.pdb aldehyde_322_*.pdb aldehyde_86_*.pdb good_structures_screening/

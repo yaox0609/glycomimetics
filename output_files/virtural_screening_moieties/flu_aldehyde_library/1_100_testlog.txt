@@ -1,0 +1,3315 @@
+Start moiety
+Moiety name is: aldehyde_1
+After grid searching, highest affinity is: 8.51223
+After gridsearching affinity: 8.51223
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: 8.51223
+Wrote pdb file test_output//best-0N5-0-aldehyde_1-clash.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_10
+After grid searching, highest affinity is: -2.80589
+After gridsearching affinity: -2.80587
+Wrote pdb file test_output//best-0N5-0-aldehyde_10.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_100
+After grid searching, highest affinity is: -1.79895
+After gridsearching affinity: -1.79895
+Wrote pdb file test_output//best-0N5-0-aldehyde_100.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_11
+After grid searching, highest affinity is: -3.73002
+After gridsearching affinity: -3.73
+Wrote pdb file test_output//best-0N5-0-aldehyde_11.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_12
+After grid searching, highest affinity is: -2.74103
+After gridsearching affinity: -2.74103
+Wrote pdb file test_output//best-0N5-0-aldehyde_12.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_13
+After grid searching, highest affinity is: -1.60948
+After gridsearching affinity: -1.60948
+Wrote pdb file test_output//best-0N5-0-aldehyde_13.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_14
+After grid searching, highest affinity is: -2.16922
+After gridsearching affinity: -2.16922
+Wrote pdb file test_output//best-0N5-0-aldehyde_14.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_15
+After grid searching, highest affinity is: -2.33266
+After gridsearching affinity: -2.33266
+Wrote pdb file test_output//best-0N5-0-aldehyde_15.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_16
+After grid searching, highest affinity is: -2.44689
+After gridsearching affinity: -2.44689
+Wrote pdb file test_output//best-0N5-0-aldehyde_16.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_17
+After grid searching, highest affinity is: -2.55539
+After gridsearching affinity: -2.55539
+Wrote pdb file test_output//best-0N5-0-aldehyde_17.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_18
+After grid searching, highest affinity is: -2.49815
+After gridsearching affinity: -2.49815
+Wrote pdb file test_output//best-0N5-0-aldehyde_18.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_19
+After grid searching, highest affinity is: -2.851
+After gridsearching affinity: -2.851
+Wrote pdb file test_output//best-0N5-0-aldehyde_19.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_2
+After grid searching, highest affinity is: -1.83355
+After gridsearching affinity: -1.83355
+Wrote pdb file test_output//best-0N5-0-aldehyde_2.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_20
+After grid searching, highest affinity is: -2.59785
+After gridsearching affinity: -2.59787
+Wrote pdb file test_output//best-0N5-0-aldehyde_20.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_21
+After grid searching, highest affinity is: -2.88053
+After gridsearching affinity: -2.88053
+Wrote pdb file test_output//best-0N5-0-aldehyde_21.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_22
+After grid searching, highest affinity is: -3.18326
+After gridsearching affinity: -3.18326
+Wrote pdb file test_output//best-0N5-0-aldehyde_22.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_23
+After grid searching, highest affinity is: -1.75228
+After gridsearching affinity: -1.75228
+Wrote pdb file test_output//best-0N5-0-aldehyde_23.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_24
+After grid searching, highest affinity is: -2.7868
+After gridsearching affinity: -2.7868
+Wrote pdb file test_output//best-0N5-0-aldehyde_24.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_25
+After grid searching, highest affinity is: -2.56328
+After gridsearching affinity: -2.56327
+Wrote pdb file test_output//best-0N5-0-aldehyde_25.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_26
+After grid searching, highest affinity is: -2.18985
+After gridsearching affinity: -2.18985
+Wrote pdb file test_output//best-0N5-0-aldehyde_26.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_27
+After grid searching, highest affinity is: -2.05007
+After gridsearching affinity: -2.05007
+Wrote pdb file test_output//best-0N5-0-aldehyde_27.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_28
+After grid searching, highest affinity is: -2.22176
+After gridsearching affinity: -2.22176
+Wrote pdb file test_output//best-0N5-0-aldehyde_28.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_29
+After grid searching, highest affinity is: -2.3944
+After gridsearching affinity: -2.39443
+Wrote pdb file test_output//best-0N5-0-aldehyde_29.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_3
+After grid searching, highest affinity is: -1.49166
+After gridsearching affinity: -1.49166
+Wrote pdb file test_output//best-0N5-0-aldehyde_3.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_30
+After grid searching, highest affinity is: -1.74076
+After gridsearching affinity: -1.74075
+Wrote pdb file test_output//best-0N5-0-aldehyde_30.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_31
+After grid searching, highest affinity is: -2.22164
+After gridsearching affinity: -2.22165
+Wrote pdb file test_output//best-0N5-0-aldehyde_31.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_32
+After grid searching, highest affinity is: -2.05226
+After gridsearching affinity: -2.05226
+Wrote pdb file test_output//best-0N5-0-aldehyde_32.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_33
+After grid searching, highest affinity is: -1.89332
+After gridsearching affinity: -1.89332
+Wrote pdb file test_output//best-0N5-0-aldehyde_33.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_34
+After grid searching, highest affinity is: 999999
+After gridsearching affinity: 20.3345
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: 999999
+Wrote pdb file test_output//best-0N5-0-aldehyde_34-clash.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_35
+After grid searching, highest affinity is: -2.54003
+After gridsearching affinity: -2.54002
+Wrote pdb file test_output//best-0N5-0-aldehyde_35.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_36
+After grid searching, highest affinity is: -2.27476
+After gridsearching affinity: -2.27476
+Wrote pdb file test_output//best-0N5-0-aldehyde_36.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_37
+After grid searching, highest affinity is: -3.18695
+After gridsearching affinity: -3.18696
+Wrote pdb file test_output//best-0N5-0-aldehyde_37.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_38
+After grid searching, highest affinity is: -2.54833
+After gridsearching affinity: -2.54833
+Wrote pdb file test_output//best-0N5-0-aldehyde_38.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_39
+After grid searching, highest affinity is: -2.54369
+After gridsearching affinity: -2.54368
+Wrote pdb file test_output//best-0N5-0-aldehyde_39.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_4
+After grid searching, highest affinity is: -1.10121
+After gridsearching affinity: -1.10121
+Wrote pdb file test_output//best-0N5-0-aldehyde_4.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_40
+After grid searching, highest affinity is: -1.9874
+After gridsearching affinity: -1.9874
+Wrote pdb file test_output//best-0N5-0-aldehyde_40.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_41
+After grid searching, highest affinity is: -2.30936
+After gridsearching affinity: -2.30936
+Wrote pdb file test_output//best-0N5-0-aldehyde_41.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_42
+After grid searching, highest affinity is: -2.78045
+After gridsearching affinity: -2.78044
+Wrote pdb file test_output//best-0N5-0-aldehyde_42.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_43
+After grid searching, highest affinity is: -1.78753
+After gridsearching affinity: -1.78753
+Wrote pdb file test_output//best-0N5-0-aldehyde_43.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_44
+After grid searching, highest affinity is: -2.14878
+After gridsearching affinity: -2.14878
+Wrote pdb file test_output//best-0N5-0-aldehyde_44.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_45
+After grid searching, highest affinity is: 999999
+After gridsearching affinity: 48.4554
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: 999999
+Wrote pdb file test_output//best-0N5-0-aldehyde_45-clash.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_46
+After grid searching, highest affinity is: -2.33573
+After gridsearching affinity: -2.33573
+Wrote pdb file test_output//best-0N5-0-aldehyde_46.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_47
+After grid searching, highest affinity is: -3.07931
+After gridsearching affinity: -3.07931
+Wrote pdb file test_output//best-0N5-0-aldehyde_47.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_48
+After grid searching, highest affinity is: -2.47789
+After gridsearching affinity: -2.47789
+Wrote pdb file test_output//best-0N5-0-aldehyde_48.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_49
+After grid searching, highest affinity is: -1.96502
+After gridsearching affinity: -1.96503
+Wrote pdb file test_output//best-0N5-0-aldehyde_49.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_5
+After grid searching, highest affinity is: -2.4624
+After gridsearching affinity: -2.4624
+Wrote pdb file test_output//best-0N5-0-aldehyde_5.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_50
+After grid searching, highest affinity is: -1.55715
+After gridsearching affinity: -1.55715
+Wrote pdb file test_output//best-0N5-0-aldehyde_50.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_51
+After grid searching, highest affinity is: 34.7775
+After gridsearching affinity: 34.7775
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: 31.7413
+Wrote pdb file test_output//best-0N5-0-aldehyde_51-clash.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_52
+After grid searching, highest affinity is: -1.97284
+After gridsearching affinity: -1.97284
+Wrote pdb file test_output//best-0N5-0-aldehyde_52.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_53
+After grid searching, highest affinity is: -1.60557
+After gridsearching affinity: -1.60557
+Wrote pdb file test_output//best-0N5-0-aldehyde_53.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_54
+After grid searching, highest affinity is: -2.92386
+After gridsearching affinity: -2.92386
+Wrote pdb file test_output//best-0N5-0-aldehyde_54.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_55
+After grid searching, highest affinity is: -1.26633
+After gridsearching affinity: -1.26632
+Wrote pdb file test_output//best-0N5-0-aldehyde_55.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_56
+After grid searching, highest affinity is: -1.73809
+After gridsearching affinity: -1.73809
+Wrote pdb file test_output//best-0N5-0-aldehyde_56.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_57
+After grid searching, highest affinity is: -1.1822
+After gridsearching affinity: -1.1822
+Wrote pdb file test_output//best-0N5-0-aldehyde_57.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_58
+After grid searching, highest affinity is: -1.86795
+After gridsearching affinity: -1.86795
+Wrote pdb file test_output//best-0N5-0-aldehyde_58.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_59
+After grid searching, highest affinity is: -2.03735
+After gridsearching affinity: -2.03735
+Wrote pdb file test_output//best-0N5-0-aldehyde_59.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_6
+After grid searching, highest affinity is: -1.11788
+After gridsearching affinity: -1.11788
+Wrote pdb file test_output//best-0N5-0-aldehyde_6.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_60
+After grid searching, highest affinity is: -1.86757
+After gridsearching affinity: -1.86757
+Wrote pdb file test_output//best-0N5-0-aldehyde_60.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_61
+After grid searching, highest affinity is: -2.53484
+After gridsearching affinity: -2.53483
+Wrote pdb file test_output//best-0N5-0-aldehyde_61.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_62
+After grid searching, highest affinity is: 999999
+After gridsearching affinity: 35.2029
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: 999999
+Wrote pdb file test_output//best-0N5-0-aldehyde_62-clash.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_63
+After grid searching, highest affinity is: -2.23441
+After gridsearching affinity: -2.23439
+Wrote pdb file test_output//best-0N5-0-aldehyde_63.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_64
+After grid searching, highest affinity is: -2.15342
+After gridsearching affinity: -2.15342
+Wrote pdb file test_output//best-0N5-0-aldehyde_64.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_65
+After grid searching, highest affinity is: -1.27532
+After gridsearching affinity: -1.27532
+Wrote pdb file test_output//best-0N5-0-aldehyde_65.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_66
+After grid searching, highest affinity is: -2.07019
+After gridsearching affinity: -2.07019
+Wrote pdb file test_output//best-0N5-0-aldehyde_66.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_67
+After grid searching, highest affinity is: -2.47942
+After gridsearching affinity: -2.47942
+Wrote pdb file test_output//best-0N5-0-aldehyde_67.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_68
+After grid searching, highest affinity is: -1.61363
+After gridsearching affinity: -1.61363
+Wrote pdb file test_output//best-0N5-0-aldehyde_68.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_69
+After grid searching, highest affinity is: 999999
+After gridsearching affinity: 17.1658
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: 999999
+Wrote pdb file test_output//best-0N5-0-aldehyde_69-clash.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_7
+After grid searching, highest affinity is: 999999
+After gridsearching affinity: 2.77386
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: 999999
+Wrote pdb file test_output//best-0N5-0-aldehyde_7-clash.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_70
+After grid searching, highest affinity is: -1.61824
+After gridsearching affinity: -1.61825
+Wrote pdb file test_output//best-0N5-0-aldehyde_70.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_71
+After grid searching, highest affinity is: -1.84663
+After gridsearching affinity: -1.84663
+Wrote pdb file test_output//best-0N5-0-aldehyde_71.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_72
+After grid searching, highest affinity is: -1.73964
+After gridsearching affinity: -1.73965
+Wrote pdb file test_output//best-0N5-0-aldehyde_72.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_73
+After grid searching, highest affinity is: 999999
+After gridsearching affinity: 75.6561
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: 999999
+Wrote pdb file test_output//best-0N5-0-aldehyde_73-clash.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_74
+After grid searching, highest affinity is: 999999
+After gridsearching affinity: 25.1189
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: 999999
+Wrote pdb file test_output//best-0N5-0-aldehyde_74-clash.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_75
+After grid searching, highest affinity is: 999999
+After gridsearching affinity: 30.1972
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: 999999
+Wrote pdb file test_output//best-0N5-0-aldehyde_75-clash.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_76
+After grid searching, highest affinity is: 2.67169
+After gridsearching affinity: 2.67169
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: 2.16792
+Wrote pdb file test_output//best-0N5-0-aldehyde_76-clash.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_77
+After grid searching, highest affinity is: -4.09638
+After gridsearching affinity: -4.09638
+Wrote pdb file test_output//best-0N5-0-aldehyde_77.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_78
+After grid searching, highest affinity is: 999999
+After gridsearching affinity: 164.903
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: 999999
+Wrote pdb file test_output//best-0N5-0-aldehyde_78-clash.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_79
+After grid searching, highest affinity is: 999999
+After gridsearching affinity: 153.728
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: 999999
+Wrote pdb file test_output//best-0N5-0-aldehyde_79-clash.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_8
+After grid searching, highest affinity is: 999999
+After gridsearching affinity: 50.858
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: 999999
+Wrote pdb file test_output//best-0N5-0-aldehyde_8-clash.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_80
+After grid searching, highest affinity is: -3.73629
+After gridsearching affinity: -3.73629
+Wrote pdb file test_output//best-0N5-0-aldehyde_80.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_81
+After grid searching, highest affinity is: -2.45805
+After gridsearching affinity: -2.45805
+Wrote pdb file test_output//best-0N5-0-aldehyde_81.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_82
+After grid searching, highest affinity is: -0.412619
+After gridsearching affinity: -0.412619
+Wrote pdb file test_output//best-0N5-0-aldehyde_82.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_83
+After grid searching, highest affinity is: 999999
+After gridsearching affinity: 130.606
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: 999999
+Wrote pdb file test_output//best-0N5-0-aldehyde_83-clash.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_84
+After grid searching, highest affinity is: -2.19188
+After gridsearching affinity: -2.19189
+Wrote pdb file test_output//best-0N5-0-aldehyde_84.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_85
+After grid searching, highest affinity is: -2.29549
+After gridsearching affinity: -2.29549
+Wrote pdb file test_output//best-0N5-0-aldehyde_85.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_86
+After grid searching, highest affinity is: -2.6286
+After gridsearching affinity: -2.6286
+Wrote pdb file test_output//best-0N5-0-aldehyde_86.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_87
+After grid searching, highest affinity is: -1.31434
+After gridsearching affinity: -1.31434
+Wrote pdb file test_output//best-0N5-0-aldehyde_87.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_88
+After grid searching, highest affinity is: -2.21096
+After gridsearching affinity: -2.21096
+Wrote pdb file test_output//best-0N5-0-aldehyde_88.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_89
+After grid searching, highest affinity is: -2.04992
+After gridsearching affinity: -2.04991
+Wrote pdb file test_output//best-0N5-0-aldehyde_89.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_9
+After grid searching, highest affinity is: -2.69217
+After gridsearching affinity: -2.69217
+Wrote pdb file test_output//best-0N5-0-aldehyde_9.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_90
+After grid searching, highest affinity is: -2.5135
+After gridsearching affinity: -2.5135
+Wrote pdb file test_output//best-0N5-0-aldehyde_90.pdb
+End moiety
+
+End GS for open valence
+Start moiety
+Moiety name is: aldehyde_91
+After grid searching, highest affinity is: -2.38617
+After gridsearching affinity: -2.38617
+Wrote pdb file test_output//best-0N5-0-aldehyde_91.pdb
+End moiety
+
+End GS for open valence
+Start moiety
+Moiety name is: aldehyde_92
+After grid searching, highest affinity is: -2.31484
+After gridsearching affinity: -2.31484
+Wrote pdb file test_output//best-0N5-0-aldehyde_92.pdb
+End moiety
+
+End GS for open valence
+Start moiety
+Moiety name is: aldehyde_93
+After grid searching, highest affinity is: -2.47869
+After gridsearching affinity: -2.47869
+Wrote pdb file test_output//best-0N5-0-aldehyde_93.pdb
+End moiety
+
+End GS for open valence
+Start moiety
+Moiety name is: aldehyde_94
+After grid searching, highest affinity is: -2.0694
+After gridsearching affinity: -2.0694
+Wrote pdb file test_output//best-0N5-0-aldehyde_94.pdb
+End moiety
+
+End GS for open valence
+Start moiety
+Moiety name is: aldehyde_95
+After grid searching, highest affinity is: -2.28497
+After gridsearching affinity: -2.28497
+Wrote pdb file test_output//best-0N5-0-aldehyde_95.pdb
+End moiety
+
+End GS for open valence
+Start moiety
+Moiety name is: aldehyde_96
+After grid searching, highest affinity is: -2.19754
+After gridsearching affinity: -2.19754
+Wrote pdb file test_output//best-0N5-0-aldehyde_96.pdb
+End moiety
+
+End GS for open valence
+Start moiety
+Moiety name is: aldehyde_97
+After grid searching, highest affinity is: -2.02916
+After gridsearching affinity: -2.02916
+Wrote pdb file test_output//best-0N5-0-aldehyde_97.pdb
+End moiety
+
+End GS for open valence
+Start moiety
+Moiety name is: aldehyde_98
+After grid searching, highest affinity is: 999999
+After gridsearching affinity: 49.0667
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: 999999
+Wrote pdb file test_output//best-0N5-0-aldehyde_98-clash.pdb
+End moiety
+
+End GS for open valence
+Start moiety
+Moiety name is: aldehyde_99
+After grid searching, highest affinity is: -2.30333
+After gridsearching affinity: -2.30333
+Wrote pdb file test_output//best-0N5-0-aldehyde_99.pdb
+End moiety
+
+End GS for open valence
+Start moiety
+Moiety name is: aldehyde_101
+After grid searching, highest affinity is: -1.96723
+After gridsearching affinity: -1.96723
+Wrote pdb file test_output//best-0N5-0-aldehyde_101.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_102
+After grid searching, highest affinity is: -2.24176
+After gridsearching affinity: -2.24176
+Wrote pdb file test_output//best-0N5-0-aldehyde_102.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_103
+After grid searching, highest affinity is: -2.16154
+After gridsearching affinity: -2.16155
+Wrote pdb file test_output//best-0N5-0-aldehyde_103.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_104
+After grid searching, highest affinity is: -2.27566
+After gridsearching affinity: -2.27566
+Wrote pdb file test_output//best-0N5-0-aldehyde_104.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_105
+After grid searching, highest affinity is: -1.99903
+After gridsearching affinity: -1.99903
+Wrote pdb file test_output//best-0N5-0-aldehyde_105.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_106
+After grid searching, highest affinity is: -1.74929
+After gridsearching affinity: -1.74929
+Wrote pdb file test_output//best-0N5-0-aldehyde_106.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_107
+After grid searching, highest affinity is: -2.60181
+After gridsearching affinity: -2.60181
+Wrote pdb file test_output//best-0N5-0-aldehyde_107.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_108
+After grid searching, highest affinity is: -2.28245
+After gridsearching affinity: -2.28245
+Wrote pdb file test_output//best-0N5-0-aldehyde_108.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_109
+After grid searching, highest affinity is: -1.65081
+After gridsearching affinity: -1.65081
+Wrote pdb file test_output//best-0N5-0-aldehyde_109.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_110
+After grid searching, highest affinity is: -1.96085
+After gridsearching affinity: -1.96085
+Wrote pdb file test_output//best-0N5-0-aldehyde_110.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_111
+After grid searching, highest affinity is: -1.60299
+After gridsearching affinity: -1.60299
+Wrote pdb file test_output//best-0N5-0-aldehyde_111.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_112
+After grid searching, highest affinity is: 999999
+After gridsearching affinity: 74.088
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: 999999
+Wrote pdb file test_output//best-0N5-0-aldehyde_112-clash.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_113
+After grid searching, highest affinity is: 37.4859
+After gridsearching affinity: 37.4859
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: 36.7848
+Wrote pdb file test_output//best-0N5-0-aldehyde_113-clash.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_114
+After grid searching, highest affinity is: -3.03561
+After gridsearching affinity: -3.03559
+Wrote pdb file test_output//best-0N5-0-aldehyde_114.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_115
+After grid searching, highest affinity is: -3.05338
+After gridsearching affinity: -3.05338
+Wrote pdb file test_output//best-0N5-0-aldehyde_115.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_116
+After grid searching, highest affinity is: -3.14745
+After gridsearching affinity: -3.14746
+Wrote pdb file test_output//best-0N5-0-aldehyde_116.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_117
+After grid searching, highest affinity is: -3.01863
+After gridsearching affinity: -3.01862
+Wrote pdb file test_output//best-0N5-0-aldehyde_117.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_118
+After grid searching, highest affinity is: -2.32803
+After gridsearching affinity: -2.32803
+Wrote pdb file test_output//best-0N5-0-aldehyde_118.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_119
+After grid searching, highest affinity is: -1.94745
+After gridsearching affinity: -1.94745
+Wrote pdb file test_output//best-0N5-0-aldehyde_119.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_120
+After grid searching, highest affinity is: -2.51354
+After gridsearching affinity: -2.51354
+Wrote pdb file test_output//best-0N5-0-aldehyde_120.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_121
+After grid searching, highest affinity is: -2.66449
+After gridsearching affinity: -2.66449
+Wrote pdb file test_output//best-0N5-0-aldehyde_121.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_122
+After grid searching, highest affinity is: 0.573762
+After gridsearching affinity: 0.573746
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: 0.573771
+Wrote pdb file test_output//best-0N5-0-aldehyde_122-clash.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_123
+After grid searching, highest affinity is: -3.15157
+After gridsearching affinity: -3.15157
+Wrote pdb file test_output//best-0N5-0-aldehyde_123.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_124
+After grid searching, highest affinity is: -3.12839
+After gridsearching affinity: -3.12839
+Wrote pdb file test_output//best-0N5-0-aldehyde_124.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_125
+After grid searching, highest affinity is: -2.03085
+After gridsearching affinity: -2.03085
+Wrote pdb file test_output//best-0N5-0-aldehyde_125.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_126
+After grid searching, highest affinity is: -1.81346
+After gridsearching affinity: -1.81346
+Wrote pdb file test_output//best-0N5-0-aldehyde_126.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_127
+After grid searching, highest affinity is: -1.94918
+After gridsearching affinity: -1.94918
+Wrote pdb file test_output//best-0N5-0-aldehyde_127.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_128
+After grid searching, highest affinity is: -2.1819
+After gridsearching affinity: -2.18189
+Wrote pdb file test_output//best-0N5-0-aldehyde_128.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_129
+After grid searching, highest affinity is: -2.49402
+After gridsearching affinity: -2.49402
+Wrote pdb file test_output//best-0N5-0-aldehyde_129.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_130
+After grid searching, highest affinity is: -2.28494
+After gridsearching affinity: -2.28495
+Wrote pdb file test_output//best-0N5-0-aldehyde_130.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_131
+After grid searching, highest affinity is: -2.5136
+After gridsearching affinity: -2.51361
+Wrote pdb file test_output//best-0N5-0-aldehyde_131.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_132
+After grid searching, highest affinity is: -2.19676
+After gridsearching affinity: -2.19676
+Wrote pdb file test_output//best-0N5-0-aldehyde_132.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_133
+After grid searching, highest affinity is: -1.95357
+After gridsearching affinity: -1.95357
+Wrote pdb file test_output//best-0N5-0-aldehyde_133.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_134
+After grid searching, highest affinity is: -2.29698
+After gridsearching affinity: -2.29698
+Wrote pdb file test_output//best-0N5-0-aldehyde_134.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_135
+After grid searching, highest affinity is: -1.96788
+After gridsearching affinity: -1.96788
+Wrote pdb file test_output//best-0N5-0-aldehyde_135.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_136
+After grid searching, highest affinity is: -1.95194
+After gridsearching affinity: -1.95194
+Wrote pdb file test_output//best-0N5-0-aldehyde_136.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_137
+After grid searching, highest affinity is: -2.48469
+After gridsearching affinity: -2.48469
+Wrote pdb file test_output//best-0N5-0-aldehyde_137.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_138
+After grid searching, highest affinity is: 999999
+After gridsearching affinity: 80.1521
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: 999999
+Wrote pdb file test_output//best-0N5-0-aldehyde_138-clash.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_139
+After grid searching, highest affinity is: -2.29121
+After gridsearching affinity: -2.29122
+Wrote pdb file test_output//best-0N5-0-aldehyde_139.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_140
+After grid searching, highest affinity is: -1.75283
+After gridsearching affinity: -1.75283
+Wrote pdb file test_output//best-0N5-0-aldehyde_140.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_141
+After grid searching, highest affinity is: -1.96918
+After gridsearching affinity: -1.96918
+Wrote pdb file test_output//best-0N5-0-aldehyde_141.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_142
+After grid searching, highest affinity is: -2.53836
+After gridsearching affinity: -2.53836
+Wrote pdb file test_output//best-0N5-0-aldehyde_142.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_143
+After grid searching, highest affinity is: -2.52271
+After gridsearching affinity: -2.52271
+Wrote pdb file test_output//best-0N5-0-aldehyde_143.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_144
+After grid searching, highest affinity is: -2.30357
+After gridsearching affinity: -2.30357
+Wrote pdb file test_output//best-0N5-0-aldehyde_144.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_145
+After grid searching, highest affinity is: -3.10355
+After gridsearching affinity: -3.10356
+Wrote pdb file test_output//best-0N5-0-aldehyde_145.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_146
+After grid searching, highest affinity is: -2.35121
+After gridsearching affinity: -2.35121
+Wrote pdb file test_output//best-0N5-0-aldehyde_146.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_147
+After grid searching, highest affinity is: -2.61897
+After gridsearching affinity: -2.61896
+Wrote pdb file test_output//best-0N5-0-aldehyde_147.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_148
+After grid searching, highest affinity is: -2.49168
+After gridsearching affinity: -2.49168
+Wrote pdb file test_output//best-0N5-0-aldehyde_148.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_149
+After grid searching, highest affinity is: -2.27264
+After gridsearching affinity: -2.27265
+Wrote pdb file test_output//best-0N5-0-aldehyde_149.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_150
+After grid searching, highest affinity is: -2.34569
+After gridsearching affinity: -2.34567
+Wrote pdb file test_output//best-0N5-0-aldehyde_150.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_151
+After grid searching, highest affinity is: 999999
+After gridsearching affinity: 28.9454
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: 999999
+Wrote pdb file test_output//best-0N5-0-aldehyde_151-clash.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_152
+After grid searching, highest affinity is: -2.31039
+After gridsearching affinity: -2.31038
+Wrote pdb file test_output//best-0N5-0-aldehyde_152.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_153
+After grid searching, highest affinity is: -2.22116
+After gridsearching affinity: -2.22115
+Wrote pdb file test_output//best-0N5-0-aldehyde_153.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_154
+After grid searching, highest affinity is: -2.15577
+After gridsearching affinity: -2.15578
+Wrote pdb file test_output//best-0N5-0-aldehyde_154.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_155
+After grid searching, highest affinity is: -3.03336
+After gridsearching affinity: -3.03336
+Wrote pdb file test_output//best-0N5-0-aldehyde_155.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_156
+After grid searching, highest affinity is: -2.00131
+After gridsearching affinity: -2.00131
+Wrote pdb file test_output//best-0N5-0-aldehyde_156.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_157
+After grid searching, highest affinity is: 999999
+After gridsearching affinity: 47.827
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: 999999
+Wrote pdb file test_output//best-0N5-0-aldehyde_157-clash.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_158
+After grid searching, highest affinity is: -2.55288
+After gridsearching affinity: -2.55289
+Wrote pdb file test_output//best-0N5-0-aldehyde_158.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_159
+After grid searching, highest affinity is: -2.39973
+After gridsearching affinity: -2.39972
+Wrote pdb file test_output//best-0N5-0-aldehyde_159.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_160
+After grid searching, highest affinity is: -2.30901
+After gridsearching affinity: -2.30902
+Wrote pdb file test_output//best-0N5-0-aldehyde_160.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_161
+After grid searching, highest affinity is: 999999
+After gridsearching affinity: 83.953
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: 999999
+Wrote pdb file test_output//best-0N5-0-aldehyde_161-clash.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_162
+After grid searching, highest affinity is: -1.97042
+After gridsearching affinity: -1.97042
+Wrote pdb file test_output//best-0N5-0-aldehyde_162.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_163
+After grid searching, highest affinity is: 999999
+After gridsearching affinity: 69.7077
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: 999999
+Wrote pdb file test_output//best-0N5-0-aldehyde_163-clash.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_164
+After grid searching, highest affinity is: 999999
+After gridsearching affinity: 47.7833
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: 999999
+Wrote pdb file test_output//best-0N5-0-aldehyde_164-clash.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_165
+After grid searching, highest affinity is: -3.04086
+After gridsearching affinity: -3.04446
+Wrote pdb file test_output//best-0N5-0-aldehyde_165.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_166
+After grid searching, highest affinity is: 999999
+After gridsearching affinity: 57.503
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: 999999
+Wrote pdb file test_output//best-0N5-0-aldehyde_166-clash.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_167
+After grid searching, highest affinity is: 999999
+After gridsearching affinity: 85.8105
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: 999999
+Wrote pdb file test_output//best-0N5-0-aldehyde_167-clash.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_168
+After grid searching, highest affinity is: -2.07182
+After gridsearching affinity: -2.07182
+Wrote pdb file test_output//best-0N5-0-aldehyde_168.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_169
+After grid searching, highest affinity is: -2.03468
+After gridsearching affinity: -2.03469
+Wrote pdb file test_output//best-0N5-0-aldehyde_169.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_170
+After grid searching, highest affinity is: -2.49625
+After gridsearching affinity: -2.49625
+Wrote pdb file test_output//best-0N5-0-aldehyde_170.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_171
+After grid searching, highest affinity is: -1.96113
+After gridsearching affinity: -1.96113
+Wrote pdb file test_output//best-0N5-0-aldehyde_171.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_172
+After grid searching, highest affinity is: -1.98975
+After gridsearching affinity: -1.98975
+Wrote pdb file test_output//best-0N5-0-aldehyde_172.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_173
+After grid searching, highest affinity is: -2.26875
+After gridsearching affinity: -2.26876
+Wrote pdb file test_output//best-0N5-0-aldehyde_173.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_174
+After grid searching, highest affinity is: -2.01712
+After gridsearching affinity: -2.01712
+Wrote pdb file test_output//best-0N5-0-aldehyde_174.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_175
+After grid searching, highest affinity is: -3.44001
+After gridsearching affinity: -3.44001
+Wrote pdb file test_output//best-0N5-0-aldehyde_175.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_176
+After grid searching, highest affinity is: -2.84287
+After gridsearching affinity: -2.84287
+Wrote pdb file test_output//best-0N5-0-aldehyde_176.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_177
+After grid searching, highest affinity is: -2.45402
+After gridsearching affinity: -2.45402
+Wrote pdb file test_output//best-0N5-0-aldehyde_177.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_178
+After grid searching, highest affinity is: -2.33909
+After gridsearching affinity: -2.33908
+Wrote pdb file test_output//best-0N5-0-aldehyde_178.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_179
+After grid searching, highest affinity is: -0.394891
+After gridsearching affinity: -0.394861
+Wrote pdb file test_output//best-0N5-0-aldehyde_179.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_180
+After grid searching, highest affinity is: -1.92298
+After gridsearching affinity: -1.92298
+Wrote pdb file test_output//best-0N5-0-aldehyde_180.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_181
+After grid searching, highest affinity is: -1.87438
+After gridsearching affinity: -1.87438
+Wrote pdb file test_output//best-0N5-0-aldehyde_181.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_182
+After grid searching, highest affinity is: -2.24892
+After gridsearching affinity: -2.24892
+Wrote pdb file test_output//best-0N5-0-aldehyde_182.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_183
+After grid searching, highest affinity is: -1.97283
+After gridsearching affinity: -1.97283
+Wrote pdb file test_output//best-0N5-0-aldehyde_183.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_184
+After grid searching, highest affinity is: -2.33752
+After gridsearching affinity: -2.33752
+Wrote pdb file test_output//best-0N5-0-aldehyde_184.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_185
+After grid searching, highest affinity is: -2.16082
+After gridsearching affinity: -2.16082
+Wrote pdb file test_output//best-0N5-0-aldehyde_185.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_186
+After grid searching, highest affinity is: -4.22786
+After gridsearching affinity: -4.22786
+Wrote pdb file test_output//best-0N5-0-aldehyde_186.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_187
+After grid searching, highest affinity is: -3.23662
+After gridsearching affinity: -3.23668
+Wrote pdb file test_output//best-0N5-0-aldehyde_187.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_188
+After grid searching, highest affinity is: -3.49856
+After gridsearching affinity: -3.49856
+Wrote pdb file test_output//best-0N5-0-aldehyde_188.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_189
+After grid searching, highest affinity is: -3.55912
+After gridsearching affinity: -3.5592
+Wrote pdb file test_output//best-0N5-0-aldehyde_189.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_190
+After grid searching, highest affinity is: -3.71411
+After gridsearching affinity: -3.71411
+Wrote pdb file test_output//best-0N5-0-aldehyde_190.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_191
+After grid searching, highest affinity is: -3.07067
+After gridsearching affinity: -3.07068
+Wrote pdb file test_output//best-0N5-0-aldehyde_191.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_192
+After grid searching, highest affinity is: -3.1085
+After gridsearching affinity: -3.1085
+Wrote pdb file test_output//best-0N5-0-aldehyde_192.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_193
+After grid searching, highest affinity is: -3.82034
+After gridsearching affinity: -3.82035
+Wrote pdb file test_output//best-0N5-0-aldehyde_193.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_194
+After grid searching, highest affinity is: -3.67279
+After gridsearching affinity: -3.67281
+Wrote pdb file test_output//best-0N5-0-aldehyde_194.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_195
+After grid searching, highest affinity is: -3.10938
+After gridsearching affinity: -3.10938
+Wrote pdb file test_output//best-0N5-0-aldehyde_195.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_196
+After grid searching, highest affinity is: -4.23153
+After gridsearching affinity: -4.23153
+Wrote pdb file test_output//best-0N5-0-aldehyde_196.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_197
+After grid searching, highest affinity is: -2.87094
+After gridsearching affinity: -2.87095
+Wrote pdb file test_output//best-0N5-0-aldehyde_197.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_198
+After grid searching, highest affinity is: -3.14532
+After gridsearching affinity: -3.14533
+Wrote pdb file test_output//best-0N5-0-aldehyde_198.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_199
+After grid searching, highest affinity is: -2.87293
+After gridsearching affinity: -2.87293
+Wrote pdb file test_output//best-0N5-0-aldehyde_199.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_200
+After grid searching, highest affinity is: -3.42038
+After gridsearching affinity: -3.42039
+Wrote pdb file test_output//best-0N5-0-aldehyde_200.pdb
+End moiety
+
+End GS for open valence
+Start moiety
+Moiety name is: aldehyde_201
+After grid searching, highest affinity is: -3.2601
+After gridsearching affinity: -3.2601
+Wrote pdb file test_output//best-0N5-0-aldehyde_201.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_202
+After grid searching, highest affinity is: -1.95847
+After gridsearching affinity: -1.95847
+Wrote pdb file test_output//best-0N5-0-aldehyde_202.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_203
+After grid searching, highest affinity is: -1.83053
+After gridsearching affinity: -1.83053
+Wrote pdb file test_output//best-0N5-0-aldehyde_203.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_204
+After grid searching, highest affinity is: -2.22915
+After gridsearching affinity: -2.22915
+Wrote pdb file test_output//best-0N5-0-aldehyde_204.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_205
+After grid searching, highest affinity is: -1.98187
+After gridsearching affinity: -1.98187
+Wrote pdb file test_output//best-0N5-0-aldehyde_205.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_206
+After grid searching, highest affinity is: -1.66288
+After gridsearching affinity: -1.66288
+Wrote pdb file test_output//best-0N5-0-aldehyde_206.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_207
+After grid searching, highest affinity is: -2.1395
+After gridsearching affinity: -2.13948
+Wrote pdb file test_output//best-0N5-0-aldehyde_207.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_208
+After grid searching, highest affinity is: -2.18403
+After gridsearching affinity: -2.18403
+Wrote pdb file test_output//best-0N5-0-aldehyde_208.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_209
+After grid searching, highest affinity is: -2.42977
+After gridsearching affinity: -2.42979
+Wrote pdb file test_output//best-0N5-0-aldehyde_209.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_210
+After grid searching, highest affinity is: -1.89303
+After gridsearching affinity: -1.89303
+Wrote pdb file test_output//best-0N5-0-aldehyde_210.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_211
+After grid searching, highest affinity is: -2.17764
+After gridsearching affinity: -2.17764
+Wrote pdb file test_output//best-0N5-0-aldehyde_211.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_212
+After grid searching, highest affinity is: -1.88823
+After gridsearching affinity: -1.88823
+Wrote pdb file test_output//best-0N5-0-aldehyde_212.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_213
+After grid searching, highest affinity is: -1.93188
+After gridsearching affinity: -1.93188
+Wrote pdb file test_output//best-0N5-0-aldehyde_213.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_214
+After grid searching, highest affinity is: -1.98808
+After gridsearching affinity: -1.98808
+Wrote pdb file test_output//best-0N5-0-aldehyde_214.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_215
+After grid searching, highest affinity is: -2.74524
+After gridsearching affinity: -2.74525
+Wrote pdb file test_output//best-0N5-0-aldehyde_215.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_216
+After grid searching, highest affinity is: -2.4726
+After gridsearching affinity: -2.4726
+Wrote pdb file test_output//best-0N5-0-aldehyde_216.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_217
+After grid searching, highest affinity is: -2.12537
+After gridsearching affinity: -2.12537
+Wrote pdb file test_output//best-0N5-0-aldehyde_217.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_218
+After grid searching, highest affinity is: -1.91993
+After gridsearching affinity: -1.91993
+Wrote pdb file test_output//best-0N5-0-aldehyde_218.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_219
+After grid searching, highest affinity is: -2.62821
+After gridsearching affinity: -2.62821
+Wrote pdb file test_output//best-0N5-0-aldehyde_219.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_220
+After grid searching, highest affinity is: -2.19533
+After gridsearching affinity: -2.19533
+Wrote pdb file test_output//best-0N5-0-aldehyde_220.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_221
+After grid searching, highest affinity is: -2.15541
+After gridsearching affinity: -2.15541
+Wrote pdb file test_output//best-0N5-0-aldehyde_221.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_222
+After grid searching, highest affinity is: -2.92527
+After gridsearching affinity: -2.92527
+Wrote pdb file test_output//best-0N5-0-aldehyde_222.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_223
+After grid searching, highest affinity is: -2.3816
+After gridsearching affinity: -2.38159
+Wrote pdb file test_output//best-0N5-0-aldehyde_223.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_224
+After grid searching, highest affinity is: -2.24196
+After gridsearching affinity: -2.24196
+Wrote pdb file test_output//best-0N5-0-aldehyde_224.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_225
+After grid searching, highest affinity is: -1.9942
+After gridsearching affinity: -1.9942
+Wrote pdb file test_output//best-0N5-0-aldehyde_225.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_226
+After grid searching, highest affinity is: -1.93231
+After gridsearching affinity: -1.9323
+Wrote pdb file test_output//best-0N5-0-aldehyde_226.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_227
+After grid searching, highest affinity is: 999999
+After gridsearching affinity: 85.2046
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: 999999
+Wrote pdb file test_output//best-0N5-0-aldehyde_227-clash.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_228
+After grid searching, highest affinity is: 999999
+After gridsearching affinity: 88.5613
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: 999999
+Wrote pdb file test_output//best-0N5-0-aldehyde_228-clash.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_229
+After grid searching, highest affinity is: -3.15589
+After gridsearching affinity: -3.15589
+Wrote pdb file test_output//best-0N5-0-aldehyde_229.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_230
+After grid searching, highest affinity is: -2.98797
+After gridsearching affinity: -2.98797
+Wrote pdb file test_output//best-0N5-0-aldehyde_230.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_231
+After grid searching, highest affinity is: -2.24964
+After gridsearching affinity: -2.24964
+Wrote pdb file test_output//best-0N5-0-aldehyde_231.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_232
+After grid searching, highest affinity is: -2.79354
+After gridsearching affinity: -2.79354
+Wrote pdb file test_output//best-0N5-0-aldehyde_232.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_233
+After grid searching, highest affinity is: -2.54706
+After gridsearching affinity: -2.54706
+Wrote pdb file test_output//best-0N5-0-aldehyde_233.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_234
+After grid searching, highest affinity is: -2.85413
+After gridsearching affinity: -2.85413
+Wrote pdb file test_output//best-0N5-0-aldehyde_234.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_235
+After grid searching, highest affinity is: -2.83578
+After gridsearching affinity: -2.83578
+Wrote pdb file test_output//best-0N5-0-aldehyde_235.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_236
+After grid searching, highest affinity is: -3.04972
+After gridsearching affinity: -3.04968
+Wrote pdb file test_output//best-0N5-0-aldehyde_236.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_237
+After grid searching, highest affinity is: -2.8285
+After gridsearching affinity: -2.8285
+Wrote pdb file test_output//best-0N5-0-aldehyde_237.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_238
+After grid searching, highest affinity is: -2.80541
+After gridsearching affinity: -2.80541
+Wrote pdb file test_output//best-0N5-0-aldehyde_238.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_239
+After grid searching, highest affinity is: -2.79973
+After gridsearching affinity: -2.79973
+Wrote pdb file test_output//best-0N5-0-aldehyde_239.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_240
+After grid searching, highest affinity is: -2.81829
+After gridsearching affinity: -2.81829
+Wrote pdb file test_output//best-0N5-0-aldehyde_240.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_241
+After grid searching, highest affinity is: -2.8144
+After gridsearching affinity: -2.8144
+Wrote pdb file test_output//best-0N5-0-aldehyde_241.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_242
+After grid searching, highest affinity is: -3.1846
+After gridsearching affinity: -3.1846
+Wrote pdb file test_output//best-0N5-0-aldehyde_242.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_243
+After grid searching, highest affinity is: -2.84912
+After gridsearching affinity: -2.84912
+Wrote pdb file test_output//best-0N5-0-aldehyde_243.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_244
+After grid searching, highest affinity is: -2.58799
+After gridsearching affinity: -2.58799
+Wrote pdb file test_output//best-0N5-0-aldehyde_244.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_245
+After grid searching, highest affinity is: 999999
+After gridsearching affinity: 183.604
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: 999999
+Wrote pdb file test_output//best-0N5-0-aldehyde_245-clash.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_246
+After grid searching, highest affinity is: -2.82056
+After gridsearching affinity: -2.82039
+Wrote pdb file test_output//best-0N5-0-aldehyde_246.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_247
+After grid searching, highest affinity is: -3.04112
+After gridsearching affinity: -3.04112
+Wrote pdb file test_output//best-0N5-0-aldehyde_247.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_248
+After grid searching, highest affinity is: 29.6972
+After gridsearching affinity: 29.6972
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: 29.7619
+Wrote pdb file test_output//best-0N5-0-aldehyde_248-clash.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_249
+After grid searching, highest affinity is: -2.43353
+After gridsearching affinity: -2.43353
+Wrote pdb file test_output//best-0N5-0-aldehyde_249.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_250
+After grid searching, highest affinity is: -1.91007
+After gridsearching affinity: -1.91007
+Wrote pdb file test_output//best-0N5-0-aldehyde_250.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_251
+After grid searching, highest affinity is: -2.91801
+After gridsearching affinity: -2.91802
+Wrote pdb file test_output//best-0N5-0-aldehyde_251.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_252
+After grid searching, highest affinity is: -1.88148
+After gridsearching affinity: -1.88148
+Wrote pdb file test_output//best-0N5-0-aldehyde_252.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_253
+After grid searching, highest affinity is: -2.52321
+After gridsearching affinity: -2.52321
+Wrote pdb file test_output//best-0N5-0-aldehyde_253.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_254
+After grid searching, highest affinity is: -2.02036
+After gridsearching affinity: -2.02036
+Wrote pdb file test_output//best-0N5-0-aldehyde_254.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_255
+After grid searching, highest affinity is: -2.81583
+After gridsearching affinity: -2.81583
+Wrote pdb file test_output//best-0N5-0-aldehyde_255.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_256
+After grid searching, highest affinity is: -2.03987
+After gridsearching affinity: -2.03987
+Wrote pdb file test_output//best-0N5-0-aldehyde_256.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_257
+After grid searching, highest affinity is: -1.93444
+After gridsearching affinity: -1.93444
+Wrote pdb file test_output//best-0N5-0-aldehyde_257.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_258
+After grid searching, highest affinity is: 999999
+After gridsearching affinity: 64.7674
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: 999999
+Wrote pdb file test_output//best-0N5-0-aldehyde_258-clash.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_259
+After grid searching, highest affinity is: -2.40616
+After gridsearching affinity: -2.40615
+Wrote pdb file test_output//best-0N5-0-aldehyde_259.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_260
+After grid searching, highest affinity is: -1.90501
+After gridsearching affinity: -1.90501
+Wrote pdb file test_output//best-0N5-0-aldehyde_260.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_261
+After grid searching, highest affinity is: 999999
+After gridsearching affinity: 78.0759
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: 999999
+Wrote pdb file test_output//best-0N5-0-aldehyde_261-clash.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_262
+After grid searching, highest affinity is: -1.76045
+After gridsearching affinity: -1.76045
+Wrote pdb file test_output//best-0N5-0-aldehyde_262.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_263
+After grid searching, highest affinity is: -2.31269
+After gridsearching affinity: -2.31269
+Wrote pdb file test_output//best-0N5-0-aldehyde_263.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_264
+After grid searching, highest affinity is: -1.89166
+After gridsearching affinity: -1.89166
+Wrote pdb file test_output//best-0N5-0-aldehyde_264.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_265
+After grid searching, highest affinity is: -1.80918
+After gridsearching affinity: -1.80918
+Wrote pdb file test_output//best-0N5-0-aldehyde_265.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_266
+After grid searching, highest affinity is: -3.3951
+After gridsearching affinity: -3.3951
+Wrote pdb file test_output//best-0N5-0-aldehyde_266.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_267
+After grid searching, highest affinity is: -2.27205
+After gridsearching affinity: -2.27205
+Wrote pdb file test_output//best-0N5-0-aldehyde_267.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_268
+After grid searching, highest affinity is: -2.33541
+After gridsearching affinity: -2.33541
+Wrote pdb file test_output//best-0N5-0-aldehyde_268.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_269
+After grid searching, highest affinity is: -1.92691
+After gridsearching affinity: -1.92691
+Wrote pdb file test_output//best-0N5-0-aldehyde_269.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_270
+After grid searching, highest affinity is: 999999
+After gridsearching affinity: 71.9169
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: 999999
+Wrote pdb file test_output//best-0N5-0-aldehyde_270-clash.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_271
+After grid searching, highest affinity is: -2.92554
+After gridsearching affinity: -2.92555
+Wrote pdb file test_output//best-0N5-0-aldehyde_271.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_272
+After grid searching, highest affinity is: -1.90066
+After gridsearching affinity: -1.90066
+Wrote pdb file test_output//best-0N5-0-aldehyde_272.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_273
+After grid searching, highest affinity is: -2.37844
+After gridsearching affinity: -2.37844
+Wrote pdb file test_output//best-0N5-0-aldehyde_273.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_274
+After grid searching, highest affinity is: -1.85252
+After gridsearching affinity: -1.85252
+Wrote pdb file test_output//best-0N5-0-aldehyde_274.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_275
+After grid searching, highest affinity is: -1.8553
+After gridsearching affinity: -1.85529
+Wrote pdb file test_output//best-0N5-0-aldehyde_275.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_276
+After grid searching, highest affinity is: 999999
+After gridsearching affinity: 95.2067
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: 999999
+Wrote pdb file test_output//best-0N5-0-aldehyde_276-clash.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_277
+After grid searching, highest affinity is: -1.7575
+After gridsearching affinity: -1.7575
+Wrote pdb file test_output//best-0N5-0-aldehyde_277.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_278
+After grid searching, highest affinity is: -1.75235
+After gridsearching affinity: -1.75235
+Wrote pdb file test_output//best-0N5-0-aldehyde_278.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_279
+After grid searching, highest affinity is: -2.44854
+After gridsearching affinity: -2.44856
+Wrote pdb file test_output//best-0N5-0-aldehyde_279.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_280
+After grid searching, highest affinity is: -2.11142
+After gridsearching affinity: -2.11142
+Wrote pdb file test_output//best-0N5-0-aldehyde_280.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_281
+After grid searching, highest affinity is: 999999
+After gridsearching affinity: 45.4024
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: 999999
+Wrote pdb file test_output//best-0N5-0-aldehyde_281-clash.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_282
+After grid searching, highest affinity is: 999999
+After gridsearching affinity: 41.6307
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: 999999
+Wrote pdb file test_output//best-0N5-0-aldehyde_282-clash.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_283
+After grid searching, highest affinity is: -2.68532
+After gridsearching affinity: -2.68532
+Wrote pdb file test_output//best-0N5-0-aldehyde_283.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_284
+After grid searching, highest affinity is: 999999
+After gridsearching affinity: 33.6856
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: 999999
+Wrote pdb file test_output//best-0N5-0-aldehyde_284-clash.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_285
+After grid searching, highest affinity is: -2.409
+After gridsearching affinity: -2.409
+Wrote pdb file test_output//best-0N5-0-aldehyde_285.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_286
+After grid searching, highest affinity is: -2.26162
+After gridsearching affinity: -2.26162
+Wrote pdb file test_output//best-0N5-0-aldehyde_286.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_287
+After grid searching, highest affinity is: -2.01158
+After gridsearching affinity: -2.01158
+Wrote pdb file test_output//best-0N5-0-aldehyde_287.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_288
+After grid searching, highest affinity is: -2.57822
+After gridsearching affinity: -2.57822
+Wrote pdb file test_output//best-0N5-0-aldehyde_288.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_289
+After grid searching, highest affinity is: -2.01253
+After gridsearching affinity: -2.01253
+Wrote pdb file test_output//best-0N5-0-aldehyde_289.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_290
+After grid searching, highest affinity is: -1.79916
+After gridsearching affinity: -1.79916
+Wrote pdb file test_output//best-0N5-0-aldehyde_290.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_291
+After grid searching, highest affinity is: -2.29607
+After gridsearching affinity: -2.29607
+Wrote pdb file test_output//best-0N5-0-aldehyde_291.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_292
+After grid searching, highest affinity is: -2.52199
+After gridsearching affinity: -2.52199
+Wrote pdb file test_output//best-0N5-0-aldehyde_292.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_293
+After grid searching, highest affinity is: 999999
+After gridsearching affinity: 69.2491
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: 999999
+Wrote pdb file test_output//best-0N5-0-aldehyde_293-clash.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_294
+After grid searching, highest affinity is: -2.01748
+After gridsearching affinity: -2.01748
+Wrote pdb file test_output//best-0N5-0-aldehyde_294.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_295
+After grid searching, highest affinity is: -2.11328
+After gridsearching affinity: -2.11327
+Wrote pdb file test_output//best-0N5-0-aldehyde_295.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_296
+After grid searching, highest affinity is: 999999
+After gridsearching affinity: 34.9704
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: 999999
+Wrote pdb file test_output//best-0N5-0-aldehyde_296-clash.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_297
+After grid searching, highest affinity is: -2.96254
+After gridsearching affinity: -2.96254
+Wrote pdb file test_output//best-0N5-0-aldehyde_297.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_298
+After grid searching, highest affinity is: -3.72809
+After gridsearching affinity: -3.72809
+Wrote pdb file test_output//best-0N5-0-aldehyde_298.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_299
+After grid searching, highest affinity is: -2.29511
+After gridsearching affinity: -2.29511
+Wrote pdb file test_output//best-0N5-0-aldehyde_299.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_300
+After grid searching, highest affinity is: -1.96975
+After gridsearching affinity: -1.96975
+Wrote pdb file test_output//best-0N5-0-aldehyde_300.pdb
+End moiety
+
+End GS for open valence
+Start moiety
+Moiety name is: aldehyde_301
+After grid searching, highest affinity is: -1.58695
+After gridsearching affinity: -1.58695
+Wrote pdb file test_output//best-0N5-0-aldehyde_301.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_302
+After grid searching, highest affinity is: -2.69899
+After gridsearching affinity: -2.69899
+Wrote pdb file test_output//best-0N5-0-aldehyde_302.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_303
+After grid searching, highest affinity is: 999999
+After gridsearching affinity: 59.9748
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: 999999
+Wrote pdb file test_output//best-0N5-0-aldehyde_303-clash.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_304
+After grid searching, highest affinity is: -2.43035
+After gridsearching affinity: -2.43041
+Wrote pdb file test_output//best-0N5-0-aldehyde_304.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_305
+After grid searching, highest affinity is: -2.39487
+After gridsearching affinity: -2.39487
+Wrote pdb file test_output//best-0N5-0-aldehyde_305.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_306
+After grid searching, highest affinity is: -3.6122
+After gridsearching affinity: -3.6122
+Wrote pdb file test_output//best-0N5-0-aldehyde_306.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_307
+After grid searching, highest affinity is: -3.42961
+After gridsearching affinity: -3.42961
+Wrote pdb file test_output//best-0N5-0-aldehyde_307.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_308
+After grid searching, highest affinity is: -2.58125
+After gridsearching affinity: -2.58125
+Wrote pdb file test_output//best-0N5-0-aldehyde_308.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_309
+After grid searching, highest affinity is: -3.20954
+After gridsearching affinity: -3.20954
+Wrote pdb file test_output//best-0N5-0-aldehyde_309.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_310
+After grid searching, highest affinity is: -2.31284
+After gridsearching affinity: -2.31284
+Wrote pdb file test_output//best-0N5-0-aldehyde_310.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_311
+After grid searching, highest affinity is: -2.54529
+After gridsearching affinity: -2.54529
+Wrote pdb file test_output//best-0N5-0-aldehyde_311.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_312
+After grid searching, highest affinity is: -1.37252
+After gridsearching affinity: -1.37252
+Wrote pdb file test_output//best-0N5-0-aldehyde_312.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_313
+After grid searching, highest affinity is: -1.3244
+After gridsearching affinity: -1.32441
+Wrote pdb file test_output//best-0N5-0-aldehyde_313.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_314
+After grid searching, highest affinity is: -3.09752
+After gridsearching affinity: -3.09753
+Wrote pdb file test_output//best-0N5-0-aldehyde_314.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_315
+After grid searching, highest affinity is: -2.5102
+After gridsearching affinity: -2.5102
+Wrote pdb file test_output//best-0N5-0-aldehyde_315.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_316
+After grid searching, highest affinity is: 999999
+After gridsearching affinity: 103.104
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: 999999
+Wrote pdb file test_output//best-0N5-0-aldehyde_316-clash.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_317
+After grid searching, highest affinity is: -1.9215
+After gridsearching affinity: -1.9215
+Wrote pdb file test_output//best-0N5-0-aldehyde_317.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_318
+After grid searching, highest affinity is: -2.25071
+After gridsearching affinity: -2.25071
+Wrote pdb file test_output//best-0N5-0-aldehyde_318.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_319
+After grid searching, highest affinity is: -2.01947
+After gridsearching affinity: -2.01947
+Wrote pdb file test_output//best-0N5-0-aldehyde_319.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_320
+After grid searching, highest affinity is: -2.74588
+After gridsearching affinity: -2.74588
+Wrote pdb file test_output//best-0N5-0-aldehyde_320.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_321
+After grid searching, highest affinity is: -3.94583
+After gridsearching affinity: -3.94581
+Wrote pdb file test_output//best-0N5-0-aldehyde_321.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_322
+After grid searching, highest affinity is: 999999
+After gridsearching affinity: 97.2371
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: 999999
+Wrote pdb file test_output//best-0N5-0-aldehyde_322-clash.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_323
+After grid searching, highest affinity is: -2.38007
+After gridsearching affinity: -2.38007
+Wrote pdb file test_output//best-0N5-0-aldehyde_323.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_324
+After grid searching, highest affinity is: -2.81862
+After gridsearching affinity: -2.81862
+Wrote pdb file test_output//best-0N5-0-aldehyde_324.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_325
+After grid searching, highest affinity is: -2.95214
+After gridsearching affinity: -2.95214
+Wrote pdb file test_output//best-0N5-0-aldehyde_325.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_326
+After grid searching, highest affinity is: -2.71969
+After gridsearching affinity: -2.71969
+Wrote pdb file test_output//best-0N5-0-aldehyde_326.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_327
+After grid searching, highest affinity is: 999999
+After gridsearching affinity: 81.5213
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: 999999
+Wrote pdb file test_output//best-0N5-0-aldehyde_327-clash.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_328
+After grid searching, highest affinity is: -1.92191
+After gridsearching affinity: -1.92191
+Wrote pdb file test_output//best-0N5-0-aldehyde_328.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_329
+After grid searching, highest affinity is: -3.55992
+After gridsearching affinity: -3.55992
+Wrote pdb file test_output//best-0N5-0-aldehyde_329.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_330
+After grid searching, highest affinity is: -2.59239
+After gridsearching affinity: -2.59239
+Wrote pdb file test_output//best-0N5-0-aldehyde_330.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_331
+After grid searching, highest affinity is: -3.10414
+After gridsearching affinity: -3.10414
+Wrote pdb file test_output//best-0N5-0-aldehyde_331.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_332
+After grid searching, highest affinity is: -2.46128
+After gridsearching affinity: -2.46128
+Wrote pdb file test_output//best-0N5-0-aldehyde_332.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_333
+After grid searching, highest affinity is: -2.33213
+After gridsearching affinity: -2.33214
+Wrote pdb file test_output//best-0N5-0-aldehyde_333.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_334
+After grid searching, highest affinity is: 999999
+After gridsearching affinity: 129.166
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: 999999
+Wrote pdb file test_output//best-0N5-0-aldehyde_334-clash.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_335
+After grid searching, highest affinity is: -2.90669
+After gridsearching affinity: -2.90669
+Wrote pdb file test_output//best-0N5-0-aldehyde_335.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_336
+After grid searching, highest affinity is: -2.43006
+After gridsearching affinity: -2.43006
+Wrote pdb file test_output//best-0N5-0-aldehyde_336.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_337
+After grid searching, highest affinity is: 999999
+After gridsearching affinity: 81.7675
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: 999999
+Wrote pdb file test_output//best-0N5-0-aldehyde_337-clash.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_338
+After grid searching, highest affinity is: 999999
+After gridsearching affinity: 88.7023
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: 999999
+Wrote pdb file test_output//best-0N5-0-aldehyde_338-clash.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_339
+After grid searching, highest affinity is: -2.94557
+After gridsearching affinity: -2.94557
+Wrote pdb file test_output//best-0N5-0-aldehyde_339.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_340
+After grid searching, highest affinity is: -1.18239
+After gridsearching affinity: -1.18239
+Wrote pdb file test_output//best-0N5-0-aldehyde_340.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_341
+After grid searching, highest affinity is: 0.64481
+After gridsearching affinity: 0.64481
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: 0.64481
+Wrote pdb file test_output//best-0N5-0-aldehyde_341-clash.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_342
+After grid searching, highest affinity is: -1.03466
+After gridsearching affinity: -1.03466
+Wrote pdb file test_output//best-0N5-0-aldehyde_342.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_343
+After grid searching, highest affinity is: -1.04963
+After gridsearching affinity: -1.04963
+Wrote pdb file test_output//best-0N5-0-aldehyde_343.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_344
+After grid searching, highest affinity is: -2.69913
+After gridsearching affinity: -2.69913
+Wrote pdb file test_output//best-0N5-0-aldehyde_344.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_345
+After grid searching, highest affinity is: -1.84426
+After gridsearching affinity: -1.84426
+Wrote pdb file test_output//best-0N5-0-aldehyde_345.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_346
+After grid searching, highest affinity is: -3.00289
+After gridsearching affinity: -3.00289
+Wrote pdb file test_output//best-0N5-0-aldehyde_346.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_347
+After grid searching, highest affinity is: -1.97232
+After gridsearching affinity: -1.97232
+Wrote pdb file test_output//best-0N5-0-aldehyde_347.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_348
+After grid searching, highest affinity is: 999999
+After gridsearching affinity: 17.0243
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: 999999
+Wrote pdb file test_output//best-0N5-0-aldehyde_348-clash.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_349
+After grid searching, highest affinity is: -2.52988
+After gridsearching affinity: -2.52988
+Wrote pdb file test_output//best-0N5-0-aldehyde_349.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_350
+After grid searching, highest affinity is: -1.73055
+After gridsearching affinity: 8.00853
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: -1.73055
+Wrote pdb file test_output//best-0N5-0-aldehyde_350.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_351
+After grid searching, highest affinity is: 999999
+After gridsearching affinity: 21.3955
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: 999999
+Wrote pdb file test_output//best-0N5-0-aldehyde_351-clash.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_352
+After grid searching, highest affinity is: -1.95809
+After gridsearching affinity: -1.95809
+Wrote pdb file test_output//best-0N5-0-aldehyde_352.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_353
+After grid searching, highest affinity is: -2.32479
+After gridsearching affinity: -2.32479
+Wrote pdb file test_output//best-0N5-0-aldehyde_353.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_354
+After grid searching, highest affinity is: -2.26328
+After gridsearching affinity: -2.26328
+Wrote pdb file test_output//best-0N5-0-aldehyde_354.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_355
+After grid searching, highest affinity is: -3.12199
+After gridsearching affinity: -3.12199
+Wrote pdb file test_output//best-0N5-0-aldehyde_355.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_356
+After grid searching, highest affinity is: 999999
+After gridsearching affinity: 73.4422
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: 999999
+Wrote pdb file test_output//best-0N5-0-aldehyde_356-clash.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_357
+After grid searching, highest affinity is: -2.37421
+After gridsearching affinity: -2.37421
+Wrote pdb file test_output//best-0N5-0-aldehyde_357.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_358
+After grid searching, highest affinity is: -2.18402
+After gridsearching affinity: -2.18403
+Wrote pdb file test_output//best-0N5-0-aldehyde_358.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_359
+After grid searching, highest affinity is: -1.51109
+After gridsearching affinity: -1.51109
+Wrote pdb file test_output//best-0N5-0-aldehyde_359.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_360
+After grid searching, highest affinity is: -2.45727
+After gridsearching affinity: -2.45727
+Wrote pdb file test_output//best-0N5-0-aldehyde_360.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_361
+After grid searching, highest affinity is: 999999
+After gridsearching affinity: 19.1669
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: 999999
+Wrote pdb file test_output//best-0N5-0-aldehyde_361-clash.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_362
+After grid searching, highest affinity is: -2.3429
+After gridsearching affinity: -2.3429
+Wrote pdb file test_output//best-0N5-0-aldehyde_362.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_363
+After grid searching, highest affinity is: -1.53076
+After gridsearching affinity: -1.53076
+Wrote pdb file test_output//best-0N5-0-aldehyde_363.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_364
+After grid searching, highest affinity is: 4.56588
+After gridsearching affinity: 4.56588
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: 4.3055
+Wrote pdb file test_output//best-0N5-0-aldehyde_364-clash.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_365
+After grid searching, highest affinity is: -2.11147
+After gridsearching affinity: -2.11147
+Wrote pdb file test_output//best-0N5-0-aldehyde_365.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_366
+After grid searching, highest affinity is: -1.13562
+After gridsearching affinity: -1.13562
+Wrote pdb file test_output//best-0N5-0-aldehyde_366.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_367
+After grid searching, highest affinity is: -2.92613
+After gridsearching affinity: -2.92613
+Wrote pdb file test_output//best-0N5-0-aldehyde_367.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_368
+After grid searching, highest affinity is: 0.21435
+After gridsearching affinity: 0.214234
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: 0.17923
+Wrote pdb file test_output//best-0N5-0-aldehyde_368-clash.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_369
+After grid searching, highest affinity is: 11.7977
+After gridsearching affinity: 11.7978
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: 11.7977
+Wrote pdb file test_output//best-0N5-0-aldehyde_369-clash.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_370
+After grid searching, highest affinity is: -2.26175
+After gridsearching affinity: -2.26175
+Wrote pdb file test_output//best-0N5-0-aldehyde_370.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_371
+After grid searching, highest affinity is: -0.947393
+After gridsearching affinity: -0.947394
+Wrote pdb file test_output//best-0N5-0-aldehyde_371.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_372
+After grid searching, highest affinity is: -1.38406
+After gridsearching affinity: -1.38406
+Wrote pdb file test_output//best-0N5-0-aldehyde_372.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_373
+After grid searching, highest affinity is: 46.1521
+After gridsearching affinity: 46.1521
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: 46.1521
+Wrote pdb file test_output//best-0N5-0-aldehyde_373-clash.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_374
+After grid searching, highest affinity is: -2.7028
+After gridsearching affinity: -2.7028
+Wrote pdb file test_output//best-0N5-0-aldehyde_374.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_375
+After grid searching, highest affinity is: 999999
+After gridsearching affinity: 68.4487
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: 999999
+Wrote pdb file test_output//best-0N5-0-aldehyde_375-clash.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_376
+After grid searching, highest affinity is: 999999
+After gridsearching affinity: 58.546
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: 999999
+Wrote pdb file test_output//best-0N5-0-aldehyde_376-clash.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_377
+After grid searching, highest affinity is: -1.51614
+After gridsearching affinity: -1.51614
+Wrote pdb file test_output//best-0N5-0-aldehyde_377.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_378
+After grid searching, highest affinity is: -1.41598
+After gridsearching affinity: -1.41598
+Wrote pdb file test_output//best-0N5-0-aldehyde_378.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_379
+After grid searching, highest affinity is: -1.57892
+After gridsearching affinity: -1.57892
+Wrote pdb file test_output//best-0N5-0-aldehyde_379.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_380
+After grid searching, highest affinity is: -0.22419
+After gridsearching affinity: -0.22419
+Wrote pdb file test_output//best-0N5-0-aldehyde_380.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_381
+After grid searching, highest affinity is: -1.2125
+After gridsearching affinity: -1.2125
+Wrote pdb file test_output//best-0N5-0-aldehyde_381.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_382
+After grid searching, highest affinity is: -1.43416
+After gridsearching affinity: -1.43416
+Wrote pdb file test_output//best-0N5-0-aldehyde_382.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_383
+After grid searching, highest affinity is: -1.66041
+After gridsearching affinity: -1.66041
+Wrote pdb file test_output//best-0N5-0-aldehyde_383.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_384
+After grid searching, highest affinity is: -0.724879
+After gridsearching affinity: -0.724883
+Wrote pdb file test_output//best-0N5-0-aldehyde_384.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_385
+After grid searching, highest affinity is: 10.0977
+After gridsearching affinity: 10.0977
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: 10.0977
+Wrote pdb file test_output//best-0N5-0-aldehyde_385-clash.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_386
+After grid searching, highest affinity is: -2.59246
+After gridsearching affinity: -2.59246
+Wrote pdb file test_output//best-0N5-0-aldehyde_386.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_387
+After grid searching, highest affinity is: 999999
+After gridsearching affinity: 35.7742
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: 999999
+Wrote pdb file test_output//best-0N5-0-aldehyde_387-clash.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_388
+After grid searching, highest affinity is: 999999
+After gridsearching affinity: 30.995
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: 999999
+Wrote pdb file test_output//best-0N5-0-aldehyde_388-clash.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_389
+After grid searching, highest affinity is: -1.36967
+After gridsearching affinity: -1.36967
+Wrote pdb file test_output//best-0N5-0-aldehyde_389.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_390
+After grid searching, highest affinity is: -2.29104
+After gridsearching affinity: -2.29104
+Wrote pdb file test_output//best-0N5-0-aldehyde_390.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_391
+After grid searching, highest affinity is: -1.00125
+After gridsearching affinity: -1.00125
+Wrote pdb file test_output//best-0N5-0-aldehyde_391.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_392
+After grid searching, highest affinity is: -1.05766
+After gridsearching affinity: -1.05766
+Wrote pdb file test_output//best-0N5-0-aldehyde_392.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_393
+After grid searching, highest affinity is: 999999
+After gridsearching affinity: 88.1232
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: 999999
+Wrote pdb file test_output//best-0N5-0-aldehyde_393-clash.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_394
+After grid searching, highest affinity is: -0.299087
+After gridsearching affinity: -0.299062
+Wrote pdb file test_output//best-0N5-0-aldehyde_394.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_395
+After grid searching, highest affinity is: -3.03782
+After gridsearching affinity: -3.03782
+Wrote pdb file test_output//best-0N5-0-aldehyde_395.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_396
+After grid searching, highest affinity is: -2.31876
+After gridsearching affinity: -2.31876
+Wrote pdb file test_output//best-0N5-0-aldehyde_396.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_397
+After grid searching, highest affinity is: -0.634
+After gridsearching affinity: -0.634001
+Wrote pdb file test_output//best-0N5-0-aldehyde_397.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_398
+After grid searching, highest affinity is: -1.32964
+After gridsearching affinity: -1.32964
+Wrote pdb file test_output//best-0N5-0-aldehyde_398.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_399
+After grid searching, highest affinity is: -1.47061
+After gridsearching affinity: -1.47061
+Wrote pdb file test_output//best-0N5-0-aldehyde_399.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_400
+After grid searching, highest affinity is: -1.40326
+After gridsearching affinity: -1.40326
+Wrote pdb file test_output//best-0N5-0-aldehyde_400.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_401
+After grid searching, highest affinity is: 999999
+After gridsearching affinity: 69.9351
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: 999999
+Wrote pdb file test_output//best-0N5-0-aldehyde_401-clash.pdb
+End moiety
+
+End GS for open valence
+Start moiety
+Moiety name is: aldehyde_34
+After grid searching, highest affinity is: -1.88656
+After gridsearching affinity: -1.88656
+Wrote pdb file test_output//best-0N5-0-aldehyde_34.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_45
+After grid searching, highest affinity is: -2.14106
+After gridsearching affinity: -2.14106
+Wrote pdb file test_output//best-0N5-0-aldehyde_45.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_62
+After grid searching, highest affinity is: -2.27617
+After gridsearching affinity: -2.27617
+Wrote pdb file test_output//best-0N5-0-aldehyde_62.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_69
+After grid searching, highest affinity is: -1.53635
+After gridsearching affinity: -1.53635
+Wrote pdb file test_output//best-0N5-0-aldehyde_69.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_7
+After grid searching, highest affinity is: -1.35598
+After gridsearching affinity: -1.35598
+Wrote pdb file test_output//best-0N5-0-aldehyde_7.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_73
+After grid searching, highest affinity is: -2.41709
+After gridsearching affinity: -2.41709
+Wrote pdb file test_output//best-0N5-0-aldehyde_73.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_74
+After grid searching, highest affinity is: -1.78518
+After gridsearching affinity: -1.78518
+Wrote pdb file test_output//best-0N5-0-aldehyde_74.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_75
+After grid searching, highest affinity is: -3.54261
+After gridsearching affinity: -3.54261
+Wrote pdb file test_output//best-0N5-0-aldehyde_75.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_78
+After grid searching, highest affinity is: -2.77136
+After gridsearching affinity: -2.77138
+Wrote pdb file test_output//best-0N5-0-aldehyde_78.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_79
+After grid searching, highest affinity is: -3.33331
+After gridsearching affinity: -3.33331
+Wrote pdb file test_output//best-0N5-0-aldehyde_79.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_8
+After grid searching, highest affinity is: -2.64301
+After gridsearching affinity: -2.64302
+Wrote pdb file test_output//best-0N5-0-aldehyde_8.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_83
+After grid searching, highest affinity is: -2.52674
+After gridsearching affinity: -2.52674
+Wrote pdb file test_output//best-0N5-0-aldehyde_83.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_98
+After grid searching, highest affinity is: -2.24329
+After gridsearching affinity: -2.24329
+Wrote pdb file test_output//best-0N5-0-aldehyde_98.pdb
+End moiety
+
+End GS for open valence
+Start moiety
+Moiety name is: aldehyde_112
+After grid searching, highest affinity is: 1.88399
+After gridsearching affinity: 1.88399
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: 0.195951
+Wrote pdb file test_output//best-0N5-0-aldehyde_112-clash.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_138
+After grid searching, highest affinity is: -2.49424
+After gridsearching affinity: -2.49424
+Wrote pdb file test_output//best-0N5-0-aldehyde_138.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_151
+After grid searching, highest affinity is: -2.51921
+After gridsearching affinity: -2.51921
+Wrote pdb file test_output//best-0N5-0-aldehyde_151.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_157
+After grid searching, highest affinity is: -2.72244
+After gridsearching affinity: -2.72244
+Wrote pdb file test_output//best-0N5-0-aldehyde_157.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_161
+After grid searching, highest affinity is: -2.29412
+After gridsearching affinity: -2.29412
+Wrote pdb file test_output//best-0N5-0-aldehyde_161.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_163
+After grid searching, highest affinity is: -2.2807
+After gridsearching affinity: -2.2807
+Wrote pdb file test_output//best-0N5-0-aldehyde_163.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_164
+After grid searching, highest affinity is: -2.16129
+After gridsearching affinity: -2.16129
+Wrote pdb file test_output//best-0N5-0-aldehyde_164.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_166
+After grid searching, highest affinity is: -1.97225
+After gridsearching affinity: -1.97225
+Wrote pdb file test_output//best-0N5-0-aldehyde_166.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_167
+After grid searching, highest affinity is: -2.55712
+After gridsearching affinity: -2.55712
+Wrote pdb file test_output//best-0N5-0-aldehyde_167.pdb
+End moiety
+
+End GS for open valence
+Start moiety
+Moiety name is: aldehyde_227
+After grid searching, highest affinity is: -2.4206
+After gridsearching affinity: -2.4206
+Wrote pdb file test_output//best-0N5-0-aldehyde_227.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_228
+After grid searching, highest affinity is: -2.27316
+After gridsearching affinity: -2.27316
+Wrote pdb file test_output//best-0N5-0-aldehyde_228.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_245
+After grid searching, highest affinity is: -3.08008
+After gridsearching affinity: -3.08008
+Wrote pdb file test_output//best-0N5-0-aldehyde_245.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_258
+After grid searching, highest affinity is: -1.9725
+After gridsearching affinity: -1.9725
+Wrote pdb file test_output//best-0N5-0-aldehyde_258.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_261
+After grid searching, highest affinity is: -2.13315
+After gridsearching affinity: -2.13315
+Wrote pdb file test_output//best-0N5-0-aldehyde_261.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_270
+After grid searching, highest affinity is: -2.42768
+After gridsearching affinity: -2.42768
+Wrote pdb file test_output//best-0N5-0-aldehyde_270.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_276
+After grid searching, highest affinity is: -2.30641
+After gridsearching affinity: -2.30642
+Wrote pdb file test_output//best-0N5-0-aldehyde_276.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_281
+After grid searching, highest affinity is: -2.49034
+After gridsearching affinity: -2.49034
+Wrote pdb file test_output//best-0N5-0-aldehyde_281.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_282
+After grid searching, highest affinity is: -2.05323
+After gridsearching affinity: -2.05323
+Wrote pdb file test_output//best-0N5-0-aldehyde_282.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_284
+After grid searching, highest affinity is: -1.54286
+After gridsearching affinity: -1.54286
+Wrote pdb file test_output//best-0N5-0-aldehyde_284.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_293
+After grid searching, highest affinity is: -2.00497
+After gridsearching affinity: -2.00498
+Wrote pdb file test_output//best-0N5-0-aldehyde_293.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_296
+After grid searching, highest affinity is: -2.13492
+After gridsearching affinity: -2.13492
+Wrote pdb file test_output//best-0N5-0-aldehyde_296.pdb
+End moiety
+
+End GS for open valence
+Start moiety
+Moiety name is: aldehyde_303
+After grid searching, highest affinity is: -2.93249
+After gridsearching affinity: -2.93249
+Wrote pdb file test_output//best-0N5-0-aldehyde_303.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_316
+After grid searching, highest affinity is: 2.73597
+After gridsearching affinity: 2.73595
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: -1.83172
+Wrote pdb file test_output//best-0N5-0-aldehyde_316.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_322
+After grid searching, highest affinity is: -2.17048
+After gridsearching affinity: -2.17048
+Wrote pdb file test_output//best-0N5-0-aldehyde_322.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_327
+After grid searching, highest affinity is: -2.56934
+After gridsearching affinity: -2.56934
+Wrote pdb file test_output//best-0N5-0-aldehyde_327.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_334
+After grid searching, highest affinity is: -3.98593
+After gridsearching affinity: -3.98598
+Wrote pdb file test_output//best-0N5-0-aldehyde_334.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_337
+After grid searching, highest affinity is: -2.67138
+After gridsearching affinity: -2.67138
+Wrote pdb file test_output//best-0N5-0-aldehyde_337.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_338
+After grid searching, highest affinity is: -2.57756
+After gridsearching affinity: -2.57756
+Wrote pdb file test_output//best-0N5-0-aldehyde_338.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_348
+After grid searching, highest affinity is: -1.79558
+After gridsearching affinity: -1.79557
+Wrote pdb file test_output//best-0N5-0-aldehyde_348.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_351
+After grid searching, highest affinity is: -2.02357
+After gridsearching affinity: -2.02357
+Wrote pdb file test_output//best-0N5-0-aldehyde_351.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_356
+After grid searching, highest affinity is: -3.06415
+After gridsearching affinity: -3.06415
+Wrote pdb file test_output//best-0N5-0-aldehyde_356.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_361
+After grid searching, highest affinity is: -2.00798
+After gridsearching affinity: -2.00798
+Wrote pdb file test_output//best-0N5-0-aldehyde_361.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_375
+After grid searching, highest affinity is: 1.79776
+After gridsearching affinity: 1.79776
+Attempt clash resolution using rotamer library.
+After rotamer library affinity: 1.79776
+Wrote pdb file test_output//best-0N5-0-aldehyde_375-clash.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_376
+After grid searching, highest affinity is: -3.13126
+After gridsearching affinity: -3.13126
+Wrote pdb file test_output//best-0N5-0-aldehyde_376.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_387
+After grid searching, highest affinity is: -2.85932
+After gridsearching affinity: -2.85933
+Wrote pdb file test_output//best-0N5-0-aldehyde_387.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_388
+After grid searching, highest affinity is: -2.94986
+After gridsearching affinity: -2.94986
+Wrote pdb file test_output//best-0N5-0-aldehyde_388.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_393
+After grid searching, highest affinity is: -2.4992
+After gridsearching affinity: -2.49919
+Wrote pdb file test_output//best-0N5-0-aldehyde_393.pdb
+End moiety
+
+Start moiety
+Moiety name is: aldehyde_401
+After grid searching, highest affinity is: -2.39765
+After gridsearching affinity: -2.39765
+Wrote pdb file test_output//best-0N5-0-aldehyde_401.pdb
+End moiety
+
+End GS for open valence

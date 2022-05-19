@@ -92,7 +92,7 @@ private:
 class CoComplex{
 public:
     //CONSTRUCTOR
-    CoComplex(std::string file_path, int num_threads);
+    CoComplex(std::string file_path, std::string gems_home, std::string output_pdb_path, int num_threads);
 
     //FUNCTIONS
     //void UpdateLigandAtoms();
@@ -432,7 +432,7 @@ void DerivativeMoiety::Free(){
 }
 
 //CONSTRUCTOR
-CoComplex::CoComplex(std::string file_path, int num_threads){
+CoComplex::CoComplex(std::string file_path, std::string gems_home, std::string output_pdb_path, int num_threads){
     this->num_threads_ = num_threads;
     this->cocomplex_assembly_ = new MolecularModeling::Assembly(file_path, gmml::InputFileType::PDBQT);
     VinaBondByDistance(*this->cocomplex_assembly_, vina_atom_data);
@@ -474,16 +474,23 @@ CoComplex::CoComplex(std::string file_path, int num_threads){
     }
 
     //Write ligand pdb containing hydrogens
-    WritePdbFromAssembly(this->ligand_assembly_, "natural_ligand.pdb");
+    std::string ligand_pdb_path = output_pdb_path + "/natural_ligand.pdb";
+    WritePdbFromAssembly(this->ligand_assembly_, ligand_pdb_path);
 
     RenameDisulfideCYS2CYX(assembly_residues);
 
     //Perform pdb2glycam matching
-    std::vector<std::string> amino_libs;
-    amino_libs.push_back("../gmml/dat/CurrentParams/leaprc.ff12SB_2014-04-24/amino12.lib");
+    std::string amino12_lib = gems_home + "/gmml/dat/CurrentParams/leaprc.ff12SB_2014-04-24/amino12.lib";
+    std::string aminoct12_lib = gems_home + "/gmml/dat/CurrentParams/leaprc.ff12SB_2014-04-24/aminoct12.lib";
+    std::string aminont12_lib = gems_home + "/gmml/dat/CurrentParams/leaprc.ff12SB_2014-04-24/aminont12.lib";
+    std::string prep = gems_home + "/gmml/dat/prep/GLYCAM_06j-1.prep";
+
+    std::vector<std::string> amino_libs = {amino12_lib, aminoct12_lib, aminont12_lib};
+    //std::string prep = "../gmml/dat/prep/GLYCAM_06j-1.prep";
+    /*amino_libs.push_back("../gmml/dat/CurrentParams/leaprc.ff12SB_2014-04-24/amino12.lib");
     amino_libs.push_back("../gmml/dat/CurrentParams/leaprc.ff12SB_2014-04-24/aminoct12.lib");
     amino_libs.push_back("../gmml/dat/CurrentParams/leaprc.ff12SB_2014-04-24/aminont12.lib");
-    std::string prep = "../gmml/dat/prep/GLYCAM_06j-1.prep";
+    std::string prep = "../gmml/dat/prep/GLYCAM_06j-1.prep";*/
 
     //The sugar identification code in monosaccharide.cc is written for non-hydrogenated structure. Must remove H before using pdb2glycam
     pdb2glycam_matching(file_path, this->pdb_glycam_atom_match_map_, all_atoms, gmml::InputFileType::PDBQT, amino_libs, prep);
@@ -497,7 +504,8 @@ CoComplex::CoComplex(std::string file_path, int num_threads){
 
     //Write hydrogen-free receptor into a pdb file. Later tleap adds proton
     RemoveProtons(this->receptor_atoms_);
-    WritePdbFromAssembly(this->receptor_assembly_, "receptor.pdb");
+    std::string receptor_pdb_path = output_pdb_path + "/receptor.pdb";
+    WritePdbFromAssembly(this->receptor_assembly_, receptor_pdb_path);
     ApplyProtonSet(all_atoms, this->input_heavy_atom_protons_map_); //Need to add proton set back for CH-pi 
 
     DuplicateAtomNodesAndCoordinates (ligand_atoms, num_threads);

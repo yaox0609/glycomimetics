@@ -204,7 +204,7 @@ struct Frcmod{
 	    MassLine* mass = this->mass_lines_[i];
 	    std::vector<std::string> s = {mass->KNDSYM, mass->AMASS, mass->ATPOL, mass->COMMENT};
 
-	    output_frcmod << s[0] << " " << s[1] << s[2] << s[3] << std::endl;
+	    output_frcmod << std::setw(2) << std::left << s[0] << " " << s[1] << s[2] << s[3] << std::endl;
 
 	}
 	output_frcmod << std::endl;
@@ -214,7 +214,7 @@ struct Frcmod{
 	    BondLine* bond = this->bond_lines_[i];
 	    std::vector<std::string> s = {bond->IBT, bond->JBT, bond->RK, bond->REQ, bond->COMMENT};
 
-	    output_frcmod << s[0] << "-" << s[1] << s[2] << s[3] << s[4] << std::endl;
+	    output_frcmod << std::setw(2) << std::left << s[0] << "-" << std::setw(2) << std::left << s[1] << s[2] << s[3] << s[4] << std::endl;
 	}
 
 	output_frcmod << std::endl;
@@ -224,7 +224,7 @@ struct Frcmod{
 	    AngleLine* angle = this->angle_lines_[i];
 	    std::vector<std::string> s = {angle->ITT, angle->JTT, angle->KTT, angle->TK, angle->TEQ, angle->COMMENT};
 
-	    output_frcmod <<  s[0] << "-" << s[1] << "-" << s[2] << s[3] << s[4] << s[5] << std::endl;
+	    output_frcmod <<  std::setw(2) << std::left << s[0] << "-" << std::setw(2) << std::left << s[1] << "-" << std::setw(2) << std::left << s[2] << s[3] << s[4] << s[5] << std::endl;
 	}
 
 	output_frcmod << std::endl;
@@ -238,7 +238,7 @@ struct Frcmod{
 		TorsionTerm* term = terms[j];
 	        std::vector<std::string> s = {torsion->IPT, torsion->JPT, torsion->KPT, torsion->LPT, term->IDIVF, term->PK, term->PHASE, term->PN, term->COMMENT};
 
-		output_frcmod << s[0] << "-" << s[1] << "-" << s[2] << "-" << s[3]
+		output_frcmod << std::setw(2) << std::left << s[0] << "-" << std::setw(2) << std::left << s[1] << "-" << std::setw(2) << std::left << s[2] << "-" << std::setw(2) << std::left << s[3]
 		              << s[4] << s[5] << s[6] << s[7] << s[8] << std::endl;
 	    }
 	}
@@ -253,7 +253,7 @@ struct Frcmod{
                 TorsionTerm* term = terms[j];
                 std::vector<std::string> s = {torsion->IPT, torsion->JPT, torsion->KPT, torsion->LPT, term->IDIVF, term->PK, term->PHASE, term->PN, term->COMMENT};
 
-		output_frcmod << s[0] << "-" << s[1] << "-" << s[2] << "-" << s[3]
+		output_frcmod << std::setw(2) << std::left <<  s[0] << "-" << std::setw(2) << std::left << s[1] << "-" << std::setw(2) << std::left << s[2] << "-" << std::setw(2) << std::left << s[3]
                               << s[4] << s[5] << s[6] << s[7] << s[8] << std::endl;
             }
         }
@@ -267,7 +267,7 @@ struct Frcmod{
 	        SixTwelvePotentialEntry* entry = entries[i];
 		std::vector<std::string> s = {entry->LTYNB, entry->POL_R_A, entry->XNEFF_EDEP_C, entry->RMIN, entry->COMMENT};
 
-		output_frcmod << "  " << s[0] 
+		output_frcmod << "  " << std::setw(2) << std::left << s[0] 
 			      << "      " << s[1] << s[2] << s[3] << s[4] << std::endl;
 	    }
 	}

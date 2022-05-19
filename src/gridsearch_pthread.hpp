@@ -22,8 +22,8 @@
 #include "rotamer_library.hpp"
 #include "utility.hpp"
 #include "open_valence_derivative_moiety.hpp"
+#include "monte_carlo.hpp"
 
-//#include "boost/tokenizer.hpp"
 #include <iostream>
 #include <string>
 #include <fstream>
@@ -34,7 +34,6 @@
 #include <iterator>
 #include <chrono>
 #include <sstream>
-#include <boost/filesystem.hpp>
 #include <functional> //std::greater
 
 struct open_valence_option{
@@ -158,7 +157,7 @@ struct thread_args{
 };
 }
 
-bool InternalClashesExist(AtomVector& atom_set_1, AtomVector& atom_set_2, int coord_index){
+/*bool InternalClashesExist(AtomVector& atom_set_1, AtomVector& atom_set_2, int coord_index){
     //Exhaustively compare two different atoms in assembly, using two nested for loops
     for (gmml::AtomVector::iterator it = atom_set_1.begin(); it != atom_set_1.end(); it++){
         MolecularModeling::Atom* current_atom = *it;
@@ -201,7 +200,7 @@ bool InternalClashesExist(AtomVector& atom_set_1, AtomVector& atom_set_2, int co
     }
 
     return false;
-}
+}*/
 
 bool GridSearchingByMultipleThreads(int coord_index, std::vector<AtomVector>& all_torsions, std::vector<int>& thread_start_torsion_values, int interval, int num_rotamers_to_sample, double* highest_affinity_ptr, pthread_mutex_t* mutex_ptr, AtomVector& receptor_atoms, AtomVector& ligand_atoms, AtomVector& moiety_atoms, std::vector<double>* highest_affinity_torsions_ptr){
 
@@ -449,7 +448,8 @@ void AttemptClashResolutionUsingRotamerLibrary(CoComplex* cocomplex, OpenValence
     ResolveClashesUsingRotamerLibrary(score_clashing_residue_map, moiety_atoms, receptor_atoms);
 
     if (!free_tors.empty()){
-        std::pair<double, std::vector<double> > highest_affinity_torsion_value_pair2 = GridSearching(cocomplex, open_valence, receptor_atoms, ligand_atoms, moiety_atoms, free_tors, interval_actual, num_threads);
+        //std::pair<double, std::vector<double> > highest_affinity_torsion_value_pair2 = GridSearching(cocomplex, open_valence, receptor_atoms, ligand_atoms, moiety_atoms, free_tors, interval_actual, num_threads);
+        std::pair<double, std::vector<double> > highest_affinity_torsion_value_pair2 = MonteCarlo(cocomplex, open_valence, receptor_atoms, ligand_atoms, moiety_atoms, free_tors, interval_actual, num_threads);
         highest_affinity = highest_affinity_torsion_value_pair2.first;
         std::vector<double>& highest_affinity_torsion_values2 = highest_affinity_torsion_value_pair2.second;
 
@@ -525,7 +525,8 @@ void GridsearchingForIndividualOpenValenceAtomAndMoiety(CoComplex* cocomplex, Op
 
         //Before each grid searching call, restore natural ligand atoms to initial position.
         std::chrono::steady_clock::time_point begin = std::chrono::steady_clock::now();
-        std::pair<double, std::vector<double> > highest_affinity_torsion_value_pair = GridSearching(cocomplex, open_valence, receptor_atoms, ligand_atoms, moiety_atoms, free_tors, interval_actual, num_threads);
+        //std::pair<double, std::vector<double> > highest_affinity_torsion_value_pair = GridSearching(cocomplex, open_valence, receptor_atoms, ligand_atoms, moiety_atoms, free_tors, interval_actual, num_threads);
+        std::pair<double, std::vector<double> > highest_affinity_torsion_value_pair = MonteCarlo(cocomplex, open_valence, receptor_atoms, ligand_atoms, moiety_atoms, free_tors, interval_actual, num_threads);
 
         std::chrono::steady_clock::time_point end = std::chrono::steady_clock::now();
 
@@ -554,7 +555,7 @@ void GridsearchingForIndividualOpenValenceAtomAndMoiety(CoComplex* cocomplex, Op
     gridsearch_log << "After gridsearching affinity: " << post_gridsearch_affinity << std::endl;
 
     if (post_gridsearch_affinity > 0){
-	AttemptClashResolutionUsingRotamerLibrary(cocomplex, open_valence, receptor_atoms, ligand_atoms, moiety_atoms, free_tors, interval_actual, num_threads, post_gridsearch_affinity, 
+	    AttemptClashResolutionUsingRotamerLibrary(cocomplex, open_valence, receptor_atoms, ligand_atoms, moiety_atoms, free_tors, interval_actual, num_threads, post_gridsearch_affinity, 
 			                          this_moiety_filename, open_valence_gridsearch_info, gridsearch_log);
     }
 

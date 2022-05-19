@@ -5,6 +5,8 @@
 #include "amber_handling.hpp"
 #include "option_handling.hpp"
 
+#include <cstdlib>
+
 typedef std::vector<MolecularModeling::Atom*> AtomVector;
 
 int main(int argc, char* argv[])
@@ -23,8 +25,16 @@ int main(int argc, char* argv[])
     std::vector<open_valence_option> open_valence_options;
     //ProcessOptions(argc, argv, interval, max_num_threads, num_threads, ext, cocrystal_pdb_path, moiety_path, output_pdb_path, logfile_path, open_valence_options, requested_combinations);
     ProcessOptions(argc, argv, interval, max_num_threads, num_threads, cocrystal_pdb_path, output_pdb_path, logfile_path, open_valence_options, requested_combinations);
+
+    //Check if GEMSHOME is set
+    char* gemshome = std::getenv("GEMSHOME");
+    if (!gemshome){
+        std::cout << "GEMSHOME environment variable must be set. Aborting." << std::endl;
+        return 0;
+    }
+    std::string gems_home(gemshome);
     
-    CoComplex* cocomplex = new CoComplex(cocrystal_pdb_path, num_threads);
+    CoComplex* cocomplex = new CoComplex(cocrystal_pdb_path, gems_home, output_pdb_path, num_threads);
 
     AtomVector ligand_atoms = cocomplex->GetLigandAtoms();
     AtomVector receptor_atoms = cocomplex->GetReceptorAtoms();

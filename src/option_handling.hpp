@@ -4,6 +4,122 @@
 #include <unistd.h> //getopt
 #include <string>
 #include "open_valence_derivative_moiety.hpp"
+#include <sstream>
+
+bool ValidateOptions(int argc, char* argv[], bool& use_input_file){
+    std::string input_file_argument = "-f";
+    std::vector<std::string> required_options = {"-c", "-a", "-i", "-o", "-t", "-l"};
+    std::vector<std::string> parsed_arguments; 
+    bool option_valid = true;
+
+    for (unsigned int i = 0; i < argc; i++){
+        parsed_arguments.emplace_back(std::string(argv[i]));
+    }
+
+    if (std::find(parsed_arguments.begin(), parsed_arguments.end(), input_file_argument) != parsed_arguments.end()){
+        use_input_file = true;
+        return option_valid;
+    } 
+
+    for (unsigned int i = 0; i < required_options.size(); i++){
+        std::string& option = required_options[i];
+        if (std::find(parsed_arguments.begin(), parsed_arguments.end(), option) == parsed_arguments.end()){
+            std::cout << "Required option " << option << " missing." << std::endl;
+            option_valid =  false;
+        }
+    }
+
+    return option_valid;
+
+}
+
+bool IsInteger(std::string& str){
+    std::stringstream stream(str);
+    int i;
+    stream >> i;
+    return (stream.eof() && !stream.fail());
+}
+
+void ProcessInputFile(int argc, char* argv[], int& interval, int& max_num_threads, int& num_threads, std::string& cocrystal_pdb_path, std::string& output_pdb_path, std::string& logfile_path, std::vector<open_valence_option>& open_valence_options){
+    std::vector<std::string> required_keywords = {"ComplexPdb", "OpenValence", "Interval", "NumThreads", "OutputPath", "LogFile"};
+    std::vector<bool> keywords_present(required_keywords.size(), false);
+    std::string input_file_argument = "-f";
+
+    int stop_index = argc -1;
+    for (unsigned int i = 0; i < stop_index; i++){
+        std::string this_argument(argv[i]);
+        std::cout << "This argument: " << this_argument << std::endl;
+        if (this_argument == input_file_argument){
+            std::string input_file_path(argv[i+1]);
+            std::cout << "Input file path: " << input_file_path << std::endl;
+
+            std::ifstream input_file(input_file_path);
+            if (input_file.fail()){
+                std::cout << "Failed to open input file: " << input_file_path << " for reading. Aborting." << std::endl;
+                std::exit(1);
+            }
+
+            std::string line;
+            while (std::getline(input_file, line)){
+                std::cout << "This line: " << line << std::endl;
+                if (line.find(":") == std::string::npos){
+                    std::cout << "Bad line: " << line << std::endl;
+                    std::cout << "Each line must be key and value, separated by colon(:)" << std::endl;
+                    std::exit(1);
+                }
+
+                std::vector<std::string> colon_split_token = gmml::Split(line, ":");
+                std::string& keyword = colon_split_token[0];
+                std::string& value = colon_split_token[1];
+
+                if (std::find(required_keywords.begin(), required_keywords.end(), keyword) == required_keywords.end()){
+                    std::cout << "Unrecognized keyword " << keyword << " in input file. Ignored." << std::endl;
+                }
+                else{
+                    std::vector<std::string>::iterator it = std::find(required_keywords.begin(), required_keywords.end(), keyword);
+                    int index = std::distance(required_keywords.begin(), it);
+                    keywords_present[index] = true;
+
+                    if (keyword == "ComplexPdb"){
+                        cocrystal_pdb_path = value;
+                    }
+                    else if (keyword == "OpenValence"){
+                        std::vector<std::string> dash_split_token = gmml::Split(value, "-");
+                        open_valence_options.emplace_back(open_valence_option(dash_split_token));
+                    }
+                    else if (keyword == "Interval"){
+                        if (IsInteger(value)){
+                            interval = std::stoi(value);
+                        }
+                        else{
+                            std::cout << "Not a valid integer: " << value << std::endl;
+                            std::exit(1);
+                        }
+
+                    }
+                    else if (keyword == "NumThreads"){
+                        if (IsInteger(value)){
+                            num_threads = std::stoi(value);
+                        }
+                        else{
+                            std::cout << "Not a valid integer: " << value << std::endl;
+                            std::exit(1);
+                        }
+                    }
+                    else if (keyword == "OutputPath"){
+                        output_pdb_path = value; 
+                    }
+                    else if (keyword == "LogFile"){
+                        logfile_path = value;
+                    }
+                }
+            }
+            break;
+        }     
+    }
+
+    return;
+}
 
 void ProcessOptions(int argc, char* argv[], int& interval, int& max_num_threads, int& num_threads, std::string& cocrystal_pdb_path, std::string& output_pdb_path, std::string& logfile_path, std::vector<open_valence_option>& open_valence_options, std::string requested_combinations){
 

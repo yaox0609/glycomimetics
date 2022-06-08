@@ -741,9 +741,9 @@ struct VinaScorePrerequisites{
     }
 
     ~VinaScorePrerequisites(){
-	std::free(this->receptor_ring_centroids_);
-	std::free(this->receptor_ring_normals_);
-	std::free(this->ligand_receptor_score_bools_);
+	    std::free(this->receptor_ring_centroids_);
+	    std::free(this->receptor_ring_normals_);
+	    std::free(this->ligand_receptor_score_bools_);
     }
 
 

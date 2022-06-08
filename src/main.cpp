@@ -24,7 +24,17 @@ int main(int argc, char* argv[])
 
     std::vector<open_valence_option> open_valence_options;
     //ProcessOptions(argc, argv, interval, max_num_threads, num_threads, ext, cocrystal_pdb_path, moiety_path, output_pdb_path, logfile_path, open_valence_options, requested_combinations);
-    ProcessOptions(argc, argv, interval, max_num_threads, num_threads, cocrystal_pdb_path, output_pdb_path, logfile_path, open_valence_options, requested_combinations);
+    bool use_input_file = false;
+    bool option_valid = ValidateOptions(argc, argv, use_input_file);
+    if (use_input_file){
+        ProcessInputFile(argc, argv, interval, max_num_threads, num_threads, cocrystal_pdb_path, output_pdb_path, logfile_path, open_valence_options);
+    }
+    else if (option_valid){
+        ProcessOptions(argc, argv, interval, max_num_threads, num_threads, cocrystal_pdb_path, output_pdb_path, logfile_path, open_valence_options, requested_combinations);
+    }
+    else{
+        std::exit(1);
+    }
 
     //Check if GEMSHOME is set
     char* gemshome = std::getenv("GEMSHOME");
@@ -34,7 +44,9 @@ int main(int argc, char* argv[])
     }
     std::string gems_home(gemshome);
     
+    std::cout << "Cocrystal pdb path: " << cocrystal_pdb_path << std::endl;
     CoComplex* cocomplex = new CoComplex(cocrystal_pdb_path, gems_home, output_pdb_path, num_threads);
+    std::cout << "Done cocomplex" << std::endl;
 
     AtomVector ligand_atoms = cocomplex->GetLigandAtoms();
     AtomVector receptor_atoms = cocomplex->GetReceptorAtoms();

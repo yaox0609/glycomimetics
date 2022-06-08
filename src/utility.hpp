@@ -529,7 +529,7 @@ void SetDihedral(MolecularModeling::Atom *atom1, MolecularModeling::Atom *atom2,
     for (int i = 0 ; i < 3; i++){
         delete[] torsion_matrix[i];
     }
-    delete torsion_matrix;
+    delete[] torsion_matrix;
 
     return;
 }
@@ -635,8 +635,9 @@ std::vector<AtomVector> DetectCyclesByDFS(AtomVector& atoms)
     MolecularModeling::AtomVector cycle = MolecularModeling::AtomVector();
     CycleMap cycles = CycleMap();
 
-    Atom* parent = new Atom();
-    parent->SetId("null");
+    //Atom* parent = new Atom();
+    Atom parent;
+    parent.SetId("null");
     //No longer use the atoms from below. Provide as argument. 
     //MolecularModeling::AtomVector atoms = GetAllAtomsOfAssemblyExceptProteinWaterResiduesAtoms();
     for(MolecularModeling::AtomVector::iterator it = atoms.begin(); it != atoms.end(); it++)
@@ -645,7 +646,7 @@ std::vector<AtomVector> DetectCyclesByDFS(AtomVector& atoms)
         atom_status_map[atom->GetId()] = gmml::UNVISITED;
         //Atom* parent = new Atom();
         //parent->SetId("null");
-        atom_parent_map[atom->GetId()] = parent;
+        atom_parent_map[atom->GetId()] = &parent;
     }
     for(MolecularModeling::AtomVector::iterator it = atoms.begin(); it != atoms.end(); it++)
     {

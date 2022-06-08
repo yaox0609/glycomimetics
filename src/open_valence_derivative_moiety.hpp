@@ -486,11 +486,6 @@ CoComplex::CoComplex(std::string file_path, std::string gems_home, std::string o
     std::string prep = gems_home + "/gmml/dat/prep/GLYCAM_06j-1.prep";
 
     std::vector<std::string> amino_libs = {amino12_lib, aminoct12_lib, aminont12_lib};
-    //std::string prep = "../gmml/dat/prep/GLYCAM_06j-1.prep";
-    /*amino_libs.push_back("../gmml/dat/CurrentParams/leaprc.ff12SB_2014-04-24/amino12.lib");
-    amino_libs.push_back("../gmml/dat/CurrentParams/leaprc.ff12SB_2014-04-24/aminoct12.lib");
-    amino_libs.push_back("../gmml/dat/CurrentParams/leaprc.ff12SB_2014-04-24/aminont12.lib");
-    std::string prep = "../gmml/dat/prep/GLYCAM_06j-1.prep";*/
 
     //The sugar identification code in monosaccharide.cc is written for non-hydrogenated structure. Must remove H before using pdb2glycam
     pdb2glycam_matching(file_path, this->pdb_glycam_atom_match_map_, all_atoms, gmml::InputFileType::PDBQT, amino_libs, prep);
@@ -500,7 +495,9 @@ CoComplex::CoComplex(std::string file_path, std::string gems_home, std::string o
         old_names.push_back(ligand_atoms[i]->GetName());
     }
 
-    WriteDerivatizedLigandPdb2GlycamLogFile(*(this->ligand_assembly_), "natural_ligand_", old_names);
+    std::string pdb2glycam_log_path = output_pdb_path + "/natural_";
+
+    WriteDerivatizedLigandPdb2GlycamLogFile(*(this->ligand_assembly_), pdb2glycam_log_path, old_names);
 
     //Write hydrogen-free receptor into a pdb file. Later tleap adds proton
     RemoveProtons(this->receptor_atoms_);
@@ -972,6 +969,7 @@ void OpenValence::Derivatize(DerivativeMoiety* derivative_moiety){
         this->explicit_torsions_preset_.emplace_back(std::make_pair(linkage_torsion, preset_val));
     }
 
+
     MolecularModeling::Assembly moiety_assembly = *(derivative_moiety->GetMoietyAssembly());
     for (unsigned int j = 0; j < this->num_threads_; j++){
         GraftMoietyAndRemoveDummyAtoms(this->linkage_torsion_atom1_, dummy_ring_atom, this->atom_, dummy_open_valence, moiety_head_atom, moiety_assembly, j);
@@ -993,12 +991,12 @@ void OpenValence::Derivatize(DerivativeMoiety* derivative_moiety){
         }
     }
 
+
     //Save the coordinates of the moiety atoms right after grafting for restoring later if necessary.
     AtomVector all_moiety_atoms = moiety_assembly.GetAllAtomsOfAssembly();
     for (unsigned int i = 0; i < all_moiety_atoms.size(); i++){
         this->derivative_atoms_initial_coord_[all_moiety_atoms[i]] = new GeometryTopology::Coordinate(all_moiety_atoms[i]->GetCoordinate());
     }
-
 
     MolecularModeling::Residue* moiety_residue = moiety_assembly.GetResidues()[0];
     this->cocomplex_->GetCoComplexAssembly()->InsertResidue(this->atom_->GetResidue(),moiety_residue);

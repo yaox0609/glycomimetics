@@ -56,6 +56,8 @@ struct open_valence_option{
 	        std::string& this_token = dash_split_tokens[i];
 	        std::vector<std::string> underscore_split_tokens = gmml::Split(this_token, "_");	
 
+            //328_C5_N5_C10-moieties/pdbqt/sigma_aldehydes-pdbqt-328_C4_C5_N5_H5N
+
             //1st token
 	        if (i == 0){
 		        residue_number = std::stoi(underscore_split_tokens[0]);
@@ -400,8 +402,8 @@ std::pair<double, std::vector<double> > GridSearching(CoComplex* cocomplex, Open
     //Before each grid searching, reset the coordinates of the ligand and R group atoms to their initial state. Natural ligand go back to crystal structure, R group go back to when they just get grafted. 
     //This is necessary because grid searching is multi threaded at the rotamer level. Since each thread ends with different coordinates, the zero-degree position of each torsion may be inconsistent.
     //So a reset is necessary before a new gridsearching starts. 
-    cocomplex->RestoreLigandPositions();
-    open_valence->RestoreMoietyAtomPositions();
+    //cocomplex->RestoreLigandPositions();
+    //open_valence->RestoreMoietyAtomPositions();
 
     for (unsigned int i = 0; i < num_threads; i++){
         //Create a child thread
@@ -490,7 +492,6 @@ void GridsearchingForIndividualOpenValenceAtomAndMoiety(CoComplex* cocomplex, Op
 		                                        int interval, int num_threads,  std::string& output_pdb_path, std::ofstream& gridsearch_log, std::ofstream& entropy_penalty, 
 							double& total_entropic_penalty, std::vector<open_valence_gridsearching_results>& open_valence_gridsearch_info){
     gridsearch_log << "Start moiety\n";
-    //DerivativeMoiety* derivative_moiety = new DerivativeMoiety(moiety_path, this_moiety_filename, num_threads);
     DerivativeMoiety* derivative_moiety = new DerivativeMoiety(moiety_path, this_moiety_filename, num_threads);
     std::string moiety_name = derivative_moiety->GetMoietyName();
     std::cout << "Moiety name is: " << moiety_name << std::endl;

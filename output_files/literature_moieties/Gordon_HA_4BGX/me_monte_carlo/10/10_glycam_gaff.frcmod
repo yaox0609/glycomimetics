@@ -1,0 +1,31 @@
+Interfacing glycam and gaff
+MASS
+
+BOND
+Ng-c3  325.9    1.4647       SOURCE1_SOURCE5   15206	 0.0039    Borrowed from c3-n3
+
+ANGLE
+Cg-Ng-c3    63.8      112.35      SOURCE3_SOURCE5        10425    1.3688    Borrowed from c3-n3-c3
+H -Ng-c3    47.4      109.29      SOURCE3_SOURCE5         6742    0.6614    Borrowed from c3-n3-hn
+Ng-c3-c3    66.0      111.04      SOURCE3_SOURCE5        12086    1.5519    Borrowed from c3-c3-n3
+Ng-c3-h1    49.5      109.88      SOURCE3_SOURCE5        20428    1.2681    Borrowed from h1-c3-n3
+Ng-c3-h1    49.5      109.88      SOURCE3_SOURCE5        20428    1.2681    Borrowed from h1-c3-n3
+
+DIHE
+Cg-Cg-Ng-c3   6    1.800         0.000           3.000      Junmei et al, 1999     Borrowed from X -c3-n3-X 
+Cg-Cg-Ng-c3   6    1.800         0.000           3.000      Junmei et al, 1999     Borrowed from X -c3-n3-X 
+H1-Cg-Ng-c3   6    1.800         0.000           3.000      Junmei et al, 1999     Borrowed from X -c3-n3-X 
+Cg-Ng-c3-c3   6    1.800         0.000           3.000      Junmei et al, 1999     Borrowed from X -c3-n3-X 
+Cg-Ng-c3-h1   6    1.800         0.000           3.000      Junmei et al, 1999     Borrowed from X -c3-n3-X 
+Cg-Ng-c3-h1   6    1.800         0.000           3.000      Junmei et al, 1999     Borrowed from X -c3-n3-X 
+H -Ng-c3-c3   6    1.800         0.000           3.000      Junmei et al, 1999     Borrowed from X -c3-n3-X 
+H -Ng-c3-h1   6    1.800         0.000           3.000      Junmei et al, 1999     Borrowed from X -c3-n3-X 
+H -Ng-c3-h1   6    1.800         0.000           3.000      Junmei et al, 1999     Borrowed from X -c3-n3-X 
+Ng-c3-c3-c2   9    1.400         0.000           3.000      JCC,7,(1986),230    Borrowed from X -c3-c3-X 
+Ng-c3-c3-hc   9    1.400         0.000           3.000      JCC,7,(1986),230    Borrowed from X -c3-c3-X 
+Ng-c3-c3-hc   9    1.400         0.000           3.000      JCC,7,(1986),230    Borrowed from X -c3-c3-X 
+
+IMPROPER
+
+NONBON
+

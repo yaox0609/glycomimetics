@@ -1,0 +1,55 @@
+HETATM    1  C1  GAL B   4     -19.106  48.286  -1.872  1.00 17.31      .158 C
+HETATM    2  C2  GAL B   4     -20.226  47.260  -1.775  1.00 14.28      .110 C
+HETATM    3  H2  GAL B   4     -19.900  46.315  -2.269  1.00  0.00      .094 H
+HETATM    4  C3  GAL B   4     -20.591  46.966  -0.327  1.00 14.14      .092 C
+HETATM    5  H3  GAL B   4     -21.014  47.894   0.123  1.00  0.00      .091 H
+HETATM    6  C4  GAL B   4     -19.343  46.584   0.453  1.00 13.05      .090 C
+HETATM    7  H4  GAL B   4     -19.591  46.584   1.540  1.00  0.00      .091 H
+HETATM    8  C5  GAL B   4     -18.234  47.600   0.210  1.00 15.75      .089 C
+HETATM    9  H5  GAL B   4     -18.578  48.579   0.618  1.00  0.00      .090 H
+HETATM   10  C6  GAL B   4     -16.940  47.223   0.939  1.00 16.07      .043 C
+HETATM   11  H61 GAL B   4     -16.588  46.216   0.616  1.00  0.00      .078 H
+HETATM   12  H62 GAL B   4     -17.144  47.015   2.015  1.00  0.00      .078 H
+HETATM   13  O2  GAL B   4     -21.386  47.758  -2.436  1.00 16.82      .388 O
+HETATM   14  H2  GAL B   4     -22.085  47.118  -2.375  1.00  0.00      .210 H
+HETATM   15  O3  GAL B   4     -21.572  45.951  -0.255  1.00 14.59      .390 O
+HETATM   16  H3  GAL B   4     -21.800  45.767   0.649  1.00  0.00      .210 H
+HETATM   17  O4  GAL B   4     -18.947  45.269   0.081  1.00 13.46      .390 O
+HETATM   18  H4  GAL B   4     -18.167  45.030   0.568  1.00  0.00      .210 H
+HETATM   19  O5  GAL B   4     -17.943  47.789  -1.184  1.00 16.29      .349 O
+HETATM   20  O6  GAL B   4     -15.901  48.179   0.805  1.00 17.63      .398 O
+HETATM   21  H6  GAL B   4     -15.099  47.945   1.257  1.00  0.00      .209 H
+HETATM   22  O1  GAL B   4     -18.791  48.511  -3.225  1.00  0.00      .363 O
+HETATM   23  H12 GAL B   4     -19.428  49.221  -1.413  1.00  0.00      .133 H
+HETATM   24  C7  GAL B   4     -19.928  48.997  -3.898  1.00  0.00      .007 C
+HETATM   25  H71 GAL B   4     -19.684  49.171  -4.946  1.00  0.00      .066 H
+HETATM   26  H72 GAL B   4     -20.731  48.263  -3.829  1.00  0.00      .066 H
+HETATM   27  H73 GAL B   4     -20.249  49.932  -3.440  1.00  0.00      .066 H
+CONECT    1    2   23   19   22
+CONECT    2    4    3    1   13
+CONECT    4    5    6    2   15
+CONECT    6    7    4    8   17
+CONECT    8    6   10    9   19
+CONECT   10    8   11   12   20
+CONECT   24   22   25   26   27
+CONECT   23    1
+CONECT    3    2
+CONECT   14   13
+CONECT    5    4
+CONECT   16   15
+CONECT    7    6
+CONECT   18   17
+CONECT    9    8
+CONECT   21   20
+CONECT   11   10
+CONECT   12   10
+CONECT   25   24
+CONECT   26   24
+CONECT   27   24
+CONECT   22    1   24
+CONECT   13    2   14
+CONECT   15    4   16
+CONECT   17    6   18
+CONECT   19    1    8
+CONECT   20   10   21
+END

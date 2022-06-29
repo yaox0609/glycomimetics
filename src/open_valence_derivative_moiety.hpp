@@ -531,8 +531,6 @@ void CoComplex::WriteDerivatizedLigandAndReceptorPdbFile(std::string output_path
     AtomVector ligand_atoms = this->GetLigandAtoms();
 
     derivatized_ligand_assembly.SetResidues(this->ligand_residues_);
-    double net_charge = derivatized_ligand_assembly.GetNetCharge();
-    std::cout << "Net charge is: " << net_charge << std::endl;
 
     std::string pdb_file_name = output_path + "/";
     std::string receptor_pdb_file_name = output_path + "/";

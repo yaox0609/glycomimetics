@@ -387,7 +387,6 @@ std::pair<double, std::vector<double> > MonteCarlo(CoComplex* cocomplex, OpenVal
 
     std::cout << "Start Monte Carlo" << std::endl;
     int num_bonds = all_torsions.size();
-
     int max_num_gens = min_num_gens + num_gens_per_bond * (num_bonds - 1);
     int max_convergence_gens = min_convergence_gens + convergence_gens_per_bond * (num_bonds - 1);
     chromosome new_chromosome (all_torsions.size(), 0.000); //Initialize each torsion to 0.000 degrees

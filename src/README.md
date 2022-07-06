@@ -1,13 +1,13 @@
-Glycomimetics
+# Glycomimetics
 Compilation in ./src:
 bash compile.sh
 
 main.exe will be created in the parent directory glycomimetics
 
-Sample Usage:
+### Sample Usage:
 ./main.exe -c receptor_pdbqts/Gordon_HA_4BGX/4bgx_chainA_49_267.pdbqt -a 269_C5_N5_C10-moieties/pdbqt/Gordon_HA_4BGX-2.pdbqt -i 30 -t 4 -o output_files/literature_moieties/Gordon_HA_4BGX/me/2/ -l glycomimetic.log
 ./main.exe -c receptor_pdbqts/Murphy_HA_3ubq/3ubq_chainC_55_270_N9.pdbqt -a 326_N5_C10_C11-moieties/pdbqt/Murphy_HA-N5_CF3.pdbqt -a 326_C9_N9_HO9-moieties/pdbqt/Murphy_HA-N9_1.pdbqt-326_C7_C8_C9_N9-link:180 -i 10 -t 4 -o output_files/literature_moieties/Murphy_HA_3ubq/1
-Options:
+### Explanation of options:
 -c file path to a pdbqt file of the co-complex
 -a each such option specifies what to do with each open valence atom
     This option is first tokenized with dash "-"
@@ -29,7 +29,12 @@ Options:
 -o path. Path where all the output files will be written in.
 -l logfie. Path to a log file. If alredy exists, will be overwritten each time program executes. 
 
-    
+### Inputs
+The pdbqt files are generated using autodock tools by providing it with your pdb files. It will handle protonation, charges and generating the atom types.
+
+### Outputs
+log file detailing which atoms are glycam and which are gaff.
+pdbqt files?
 
         
     
